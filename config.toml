@@ -28,19 +28,26 @@ theme = "hugo-hikari-theme"
 
 [params.offcanvas]
 	# Menu items
-	title = "Hi, I'm John Doe"
-	bio = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, pariatur!"
+	title = "Hackerspace Brussels"
+	bio = "is a space, dedicated to various aspects of constructive & creative hacking. The space is about 300 square meters, there is a little electronics lab with over 9000 components, a library, and lots of tools. You're always welcome to follow one of the workshops or come to the weekly Tuesday meetings, hack nights or other get-together events."
 	subscribe = "Subscribe"
-	followme = "Follow me on"
+	followme = "Follow us on"
 
 	# Enable Google search
 	search_enabled = false
 	search = "Search"
 
 	[[params.offcanvas.socialnetworks]]
+    		name = "Gitlab"
+    		url = "https://gitlab.com/hsbxl"
+
+	[[params.offcanvas.socialnetworks]]
 		name = "Github"
-		url = "//github.com/hsbxl"
+		url = "https://github.com/hsbxl"
 
 	[[params.offcanvas.socialnetworks]]
 		name = "Twitter"
-		url = "//twitter.com/hsbxl"
+		url = "https://twitter.com/hsbxl"
+    [[params.offcanvas.socialnetworks]]
+        name = "Facebook"
+        url = "https://www.facebook.com/groups/hsbxl"

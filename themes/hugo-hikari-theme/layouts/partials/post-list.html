@@ -1,0 +1,28 @@
+<main>
+    <div id="home">
+        <ul class="posts">
+
+
+
+        {{ $paginator := .Paginate (where .Pages "Type" "event") }}
+        {{ range ($paginator.Pages.ByParam "startdate") }}
+
+            {{ if ge .Params.startdate (now.Format "2006-01-02") }}
+
+                <li itemscope itemtype="//schema.org/Event">
+                    <a href="{{ .Permalink }}" itemprop="url">
+                        <div class="p-wrap">
+                            <time datetime="" itemprop="startDate">
+                                {{ .Params.startdate | dateFormat "Monday, 2 Jan, 2006"}}
+                            </time>
+                            <p itemprop="name headline">{{ .Title }}</p>
+                        </div>
+                    </a>
+                </li>
+
+            {{ end }}
+
+        {{ end }}
+        </ul>
+    </div>
+</main>

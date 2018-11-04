@@ -8,12 +8,12 @@ enddate: 2019-02-02
 linktitle: "ByteWeek"
 title: "Byteweek"
 location: "HSBXL"
-eventtype: "Conference"
+#eventtype: "Conference"
 price: ""
 image: "byteweek.png"
 ---
 
-The full week before Fosdem conference, we have ByteWeek.  
+The week before Fosdem conference, we have ByteWeek.  
 One week of hackatons, workshops, talks, and we end the week with the famous ByteNight!
 
 ## Call for participation

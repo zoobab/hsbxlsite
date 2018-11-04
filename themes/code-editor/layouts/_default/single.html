@@ -1,9 +1,16 @@
 {{ partial "top.html" . }}
 <h1>{{ .Title }}</h1>
 
-<h4>{{ .Params.eventtype }} on {{ .Params.startdate | dateFormat "Monday 2 January 2006"}} @ {{ .Params.location }}. Starting {{ .Params.starttime }}.</h4>
+<h4 class="datetime">
 
-{{ with .Params.price }}<h5>Price: {{ . }}</h5>{{ end }}
+{{ .Params.eventtype }} {{ .Params.startdate | dateFormat "Monday 2 January 2006"}} {{ if isset .Params "starttime"}}({{ .Params.starttime }}){{ end }}
+{{ if or (isset .Params "enddate") (isset .Params "endtime")}} till {{ end }}
+{{ if isset .Params "enddate"}}{{ .Params.enddate | dateFormat "Monday 2 January 2006"}}{{ end }}{{ if isset .Params "endtime"}} ({{ .Params.endtime }}){{ end }}{{ if isset .Params "location"}} @ {{ .Params.location }}{{ end }}.
+
+</h4>
+
+
+{{ with .Params.price }}<h5 class="price">Price: {{ . }}</h5>{{ end }}
 
 {{ partial "share.html" . }}
 

@@ -1,17 +1,22 @@
 {{ partial "top.html" . }}
 
-<h1>HSBXL Agenda</h1>
+<h1>Hackerspace Brussels</h1>
 
-{{ $paginator := .Paginate .Data.Pages.ByPublishDate }}
-<div class="articles-list">
-    {{ range $paginator.Pages }}
-    <article>
-        <h3><a href="{{ .Permalink }}">{{ .Title }}</a> - {{ dateFormat "2006-01-02 15:04:05" .Date }}</h3>
-        {{ .Summary }}
-    </article>
-    {{ end }}
+<blockquote>Hackerspace Brussels (HSBXL) is a space, dedicated to various aspects of constructive & creative hacking. The space is about 300 square meters, there is a little electronics lab with over 9000 components, a library, and lots of tools. You're always welcome to follow one of the workshops or come to the weekly Tuesday meetings, hack nights or other get-together events.</blockquote>
+
+<video controls="" loop="" class="embed-responsive-item">
+    <source src="https://hsbxl.be/welcome/video/intro.webm" type="video/webm; codecs=vp9,vorbis">
+    <source src="https://hsbxl.be/welcome/video/intro.mp4" type="video/mp4">
+</video>
+
+<div class="connect">
+    <a class="icon_github" href="https://github.com/hsbxl">Github</a>
+    <a class="icon_gitlab" href="https://gitlab.com/hsbxl">Gitlab</a>
+    <a class="icon_youtube" href="https://www.youtube.com/hsbxl">Youtube</a>
+    <a class="icon_twitter" href="https://twitter.com/hsbxl">Twitter</a>
+    <a class="icon_mastodon" href="https://mastodon.social/@hsbxl">Mastodon</a>
+    <a class="icon_facebook" href="https://www.facebook.com/groups/hsbxl">Facebook</a>
 </div>
-
 
 {{ template "_internal/pagination.html" . }}
 {{ partial "bottom.html" . }}

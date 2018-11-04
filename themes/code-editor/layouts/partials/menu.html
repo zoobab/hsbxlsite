@@ -4,11 +4,25 @@
     <h3 class="home-link"><a href="{{ index .Site.Params "rootlink" | default .Site.BaseURL }}">{{ ( index $.Site.Data.translations (default $.Site.Params.locale "en-US") ).root }}</a></h3>
 
     <div id="last-posts" class="open">
-        <h3 data-open="last-posts">{{ .Site.Title }}</h3>
+        <h3 data-open="last-posts">Welcome</h3>
         <ul>
-            {{ range (and (where $.Site.RegularPages "Type" "event") ($.Site.RegularPages.ByParam "startdate"))}}
-                {{ if ge .Params.startdate (now.Format "2006-01-02") }}
-                    <li><a href="{{ .Permalink }}">{{ .Params.startdate | dateFormat "Mon 2 Jan 2006"}}: {{ .Params.linktitle }}</a></li>
+            <li><a href="https://wiki.hsbxl.be">Wiki</a></li>
+            <li><a href="https://wiki.hsbxl.be/Contact">Get in contact</a></li>
+            <li><a href="https://wiki.hsbxl.be/Mailing_list">Our mailing lists</a></li>
+            <li><a href="https://ptt.hackerspaces.be/#/room/#hsbxl:hackerspaces.be">Chat (Matrix)</a></li>
+            <li><a href="irc://irc.freenode.net/hsbxl">Chat (IRC)</a></li>
+        </ul>
+    </div>
+
+    <div id="last-posts" class="open">
+        <h3 data-open="last-posts">Agenda</h3>
+        <ul>
+            {{ range $.Site.RegularPages.ByParam "startdate" }}
+                {{ if eq .Type "event" }}
+                    {{ if ge .Params.startdate (now.Format "2006-01-02") }}
+                        <li><a href="{{ .Permalink }}">{{ .Params.startdate | dateFormat "Mon 2 Jan 2006"}}: {{ .Params.linktitle }}</a></li>
+                    {{ end }}
+
                 {{ end }}
             {{ end }}
         </ul>
@@ -18,9 +32,11 @@
         <h3 data-open="last-posts">TechTuesdays</h3>
         <ul>
             <li>Every Tuesday we have TechTuesday, an open evening for both members and visitors.</li>
-            {{ range (where $.Site.RegularPages "Type" "techtuesday")}}
-                {{ if ge .Params.startdate (now.Format "2006-01-02") }}
-                    <li><a href="{{ .Permalink }}">{{ .Params.startdate | dateFormat "Mon 2 Jan 2006"}}: {{ .Params.linktitle }}</a></li>
+            {{ range $.Site.RegularPages.ByParam "startdate" }}
+                {{ if eq .Type "techtuesday" }}
+                    {{ if ge .Params.startdate (now.Format "2006-01-02") }}
+                        <li><a href="{{ .Permalink }}">{{ .Params.startdate | dateFormat "Mon 2 Jan 2006"}}: {{ .Params.linktitle }}</a></li>
+                    {{ end }}
                 {{ end }}
             {{ end }}
         </ul>

@@ -2227,3 +2227,6 @@ blockquote p {
 video {
   max-width: 100%;
 }
+article img {
+  max-width: 100%;
+}

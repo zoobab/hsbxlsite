@@ -6,7 +6,7 @@ title: "Byteweek"
 location: "HSBXL"
 eventtype: "Crazy week starting"
 price: ""
-
+image: "byteweek.png"
 ---
 
 

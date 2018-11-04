@@ -31,7 +31,7 @@
     <div id="last-posts" class="open">
         <h3 data-open="last-posts">TechTuesdays</h3>
         <ul>
-            <li>Every Tuesday we have TechTuesday, an open evening for both members and visitors.</li>
+            <li>Every Tuesday is TechTuesday, an open evening for both members and visitors.</li>
             {{ range $.Site.RegularPages.ByParam "startdate" }}
                 {{ if eq .Type "techtuesday" }}
                     {{ if ge .Params.startdate (now.Format "2006-01-02") }}

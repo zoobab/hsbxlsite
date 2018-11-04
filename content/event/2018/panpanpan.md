@@ -6,7 +6,7 @@ eventtype: "Workshop"
 
 title: "PANPANPAN: V-2 Install PartyI"
 linktitle: "PANPANPAN: V-2 Install PartyI"
-image: "images/Studioonboard.jpg"
+image: "Studioonboard.jpg"
 
 location: "HSBXL"
 price: "free contribution / hardware mim 65"

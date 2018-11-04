@@ -8,7 +8,9 @@
 {{ partial "share.html" . }}
 
 <article>
-    {{ with .Params.image }}<img src="/{{ . }}">{{ end }}
+    {{ if isset .Params "image"}}
+        <img src="{{ .Site.BaseURL }}{{ .Params.image }}">
+    {{ end }}
     {{ .Content }}
 </article>
 

@@ -1,0 +1,52 @@
+<nav class="col-md-3">
+
+    {{ if $.Site.Params.codeeditor_menu_mostrecentposts | default true }}
+    <h3 class="home-link"><a href="{{ index .Site.Params "rootlink" | default .Site.BaseURL }}">{{ ( index $.Site.Data.translations (default $.Site.Params.locale "en-US") ).root }}</a></h3>
+
+    <div id="last-posts" class="open">
+        <h3 data-open="last-posts">{{ .Site.Title }}</h3>
+        <ul>
+            {{ range (and (where $.Site.RegularPages "Type" "event") ($.Site.RegularPages.ByParam "startdate"))}}
+                {{ if ge .Params.startdate (now.Format "2006-01-02") }}
+                    <li><a href="{{ .Permalink }}">{{ .Params.startdate | dateFormat "Mon 2 Jan 2006"}}: {{ .Params.linktitle }}</a></li>
+                {{ end }}
+            {{ end }}
+        </ul>
+    </div>
+
+    <div id="last-posts" class="open">
+        <h3 data-open="last-posts">TechTuesdays</h3>
+        <ul>
+            <li>Every Tuesday we have TechTuesday, an open evening for both members and visitors.</li>
+            {{ range (where $.Site.RegularPages "Type" "techtuesday")}}
+                {{ if ge .Params.startdate (now.Format "2006-01-02") }}
+                    <li><a href="{{ .Permalink }}">{{ .Params.startdate | dateFormat "Mon 2 Jan 2006"}}: {{ .Params.linktitle }}</a></li>
+                {{ end }}
+            {{ end }}
+        </ul>
+    </div>
+
+    {{ end }}
+
+    {{ with .Site.Taxonomies.tags }}
+    <div id="tags" class="open">
+        <h3 data-open="tags">{{ ( index $.Site.Data.translations (default $.Site.Params.locale "en-US") ).tags }}</h3>
+        <ul class="tags">
+            {{ range $name, $taxonomy := . }}
+            <li><a href="/tags/{{ $name | urlize }}">{{ $name }}</a></li>
+            {{ end }}
+        </ul>
+    </div>
+    {{ end }}
+
+    {{ with .Site.Taxonomies.categories }}
+    <div id="categories" class="open">
+        <h3 data-open="categories">{{ ( index $.Site.Data.translations (default $.Site.Params.locale "en-US") ).categories }}</h3>
+        <ul class="categories">
+            {{ range $name, $taxonomy := . }}
+            <li><a href="/categories/{{ $name | urlize }}">{{ $name }}</a></li>
+            {{ end }}
+        </ul>
+    </div>
+    {{ end }}
+</nav>

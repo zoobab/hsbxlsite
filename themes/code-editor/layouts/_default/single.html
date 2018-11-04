@@ -1,0 +1,15 @@
+{{ partial "top.html" . }}
+<h1>{{ .Title }}</h1>
+
+<h4>{{ .Params.eventtype }} on {{ .Params.startdate | dateFormat "Monday 2 January 2006"}} @ {{ .Params.location }}. Starting {{ .Params.starttime }}.</h4>
+
+{{ with .Params.price }}<h5>Price: {{ . }}</h5>{{ end }}
+
+{{ partial "share.html" . }}
+
+<article>
+    {{ with .Params.image }}<img src="/{{ . }}">{{ end }}
+    {{ .Content }}
+</article>
+
+{{ partial "bottom.html" . }}

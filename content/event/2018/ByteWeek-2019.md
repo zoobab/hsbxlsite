@@ -1,12 +1,13 @@
 ---
-author: "Tom Behets"
-date: 2018-11-02
 startdate:  2019-01-22
-enddate: 2019-02-01
-linktitle: ByteWeek
-title: Byteweek
+starttime: "15h"
+linktitle: "ByteWeek"
+title: "Byteweek"
+location: "HSBXL"
+eventtype: "Crazy week starting"
+price: ""
+
 ---
 
-# ByteWeek
 
 Hello World!

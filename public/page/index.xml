@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on HSBXL AGENDA</title>
+    <link>https://example.org/page/</link>
+    <description>Recent content in Pages on HSBXL AGENDA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Nov 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://example.org/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Past events</title>
+      <link>https://example.org/page/past/</link>
+      <pubDate>Fri, 02 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/page/past/</guid>
+      <description> Past events </description>
+    </item>
+    
+  </channel>
+</rss>

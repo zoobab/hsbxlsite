@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://example.org/event/2018/panpanpan/</loc>
+    <lastmod>2018-11-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.org/event/2018/byteweek-2019/</loc>
+    <lastmod>2018-11-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.org/page/past/</loc>
+    <lastmod>2018-11-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.org/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/event/</loc>
+    <lastmod>2018-11-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/</loc>
+    <lastmod>2018-11-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/page/</loc>
+    <lastmod>2018-11-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

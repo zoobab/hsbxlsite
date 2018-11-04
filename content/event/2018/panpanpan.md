@@ -1,10 +1,15 @@
 ---
-author: "Tom Behets"
-date: 2018-11-03
 startdate:  2018-11-19
-enddate: 2018-11-19
-linktitle: PanPanPan
-title: PanPanPan
+starttime: "14h"
+
+eventtype: "Workshop"
+
+title: "PANPANPAN: V-2 Install PartyI"
+linktitle: "PANPANPAN: V-2 Install PartyI"
+image: "images/Studioonboard.jpg"
+
+location: "HSBXL"
+price: "free contribution / hardware mim 65"
 ---
 
 The PiBox is a modular system of radio/streaming broadcast, composed of multiplers inputs and outputs. The box provides a multi-functional and easy-to-use micro-fm streaming station. The PiBox has been developed within the collective ∏-node.org. The system isbased on open source software / open hardware.

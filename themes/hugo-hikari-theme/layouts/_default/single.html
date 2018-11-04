@@ -8,6 +8,7 @@
         
         <section class="single-wrap">
             <article class="single-content" itemscope itemtype="//schema.org/BlogPosting">
+
                 <div class="feat">
                     <h5 class="page-date">
                     <time datetime="" itemprop="datePublished">
@@ -16,6 +17,9 @@
                     </h5>
                 </div>
                 <h1 class="page-title" itemprop="name headline">{{ .Title }}</h1>
+
+                {{ with .Params.image }}<img src="/{{ . }}">{{ end }}
+
                 <div itemprop="articleBody">
                     {{ .Content }}
                 </div>

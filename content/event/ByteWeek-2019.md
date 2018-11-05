@@ -18,6 +18,8 @@ One week of hackatons, workshops, talks, and we end the week with the famous Byt
 Send a mail to **contact@hsbxl.be** with your proposal.
 
 ### Currently on the menu
+- Tuesday 29th Jan: Introduction to LDAP (Talk/Workshop)
+- Wednesday 30th Jan: Stompboxin', DIY fuzzboxes for bass and guitar (workshop)
 - Thursday 31st Jan: zeromq (Hackaton)
 - Friday 1st Feb: zeromq (Hackaton)
 - Friday 1st Feb: blockstack (Talk)

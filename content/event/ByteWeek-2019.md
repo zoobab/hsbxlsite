@@ -23,6 +23,6 @@ Send a mail to **contact@hsbxl.be** with your proposal.
 - Thursday 31st Jan: zeromq (Hackaton)
 - Friday 1st Feb: zeromq (Hackaton)
 - Friday 1st Feb: blockstack (Talk)
-- Saturday 2nd Feb: ByteNight (Thé dansant)
+- Saturday 2nd Feb: [Bytenight]({{<  ref "/event/Bytenight-2019.md"  >}}) (Thé dansant)
 
 More to come...

@@ -9,3 +9,11 @@
     {{ partial "menu.html" . }}
 </div>
 <div class="col-md-9 content">
+    <div class="alert">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        {{ if isset .Site.Params "alert_link" }}
+        <a href="{{ .Site.Params.alert_link }}">{{ .Site.Params.alert_text }}</a>
+        {{ else }}
+        {{ .Site.Params.alert_text }}
+        {{ end }}
+    </div>

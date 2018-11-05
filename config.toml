@@ -3,12 +3,14 @@ languageCode = "en-us"
 title = "HSBXL AGENDA"
 theme = "code-editor"
 
+
 sectionPagesMenu = "main"
 
 [permalinks]
 	post = "/:year/:month/:day/:slug"
 
 [params]
+    giteditpath = "https://gitlab.com/hsbxl/agenda/tree/master/content"
 	name = "Your name"
 	description = "Describe your website"
 	copyright = ""

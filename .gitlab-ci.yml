@@ -1,5 +1,5 @@
 #image: registry.gitlab.com/pages/hugo:latest
-image: klakegg/hugo:debian
+image: klakegg/hugo:ubuntu
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive

@@ -9,6 +9,10 @@ sectionPagesMenu = "main"
 [permalinks]
 	post = "/:year/:month/:day/:slug"
 
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+
 [params]
     alert_text = "ALERT! We are being evicted from our location in Molenbeek. Help us finding a new hôme."
     alert_link = "https://wiki.hsbxl.be/Sudo_find_-name_space_/"

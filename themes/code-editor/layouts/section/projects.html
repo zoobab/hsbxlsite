@@ -6,6 +6,8 @@
 
 {{ partial "share.html" . }}
 
+<img src="{{ .Site.BaseURL }}images/progressbar.png" style="max-width:400px">
+
 <article>
     {{ if isset .Params "image"}}
     <img src="{{ .Site.BaseURL }}images/{{ .Params.image }}">

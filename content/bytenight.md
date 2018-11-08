@@ -12,7 +12,7 @@ price: ""
 ---
 
 ## Stable version
-- [Bytenight v2019]({{<ref "events/Bytenight-2019.md">}})
+- [Bytenight v2019]({{<ref "events/bytenight/2019.md">}})
 
 ## Unsupported, deprecated versions
 - [Bytenight v2018](https://wiki.hsbxl.be/Bytenight_2018)

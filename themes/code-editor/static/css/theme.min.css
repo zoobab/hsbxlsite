@@ -34,13 +34,13 @@ article img {
 
 .alert {
     padding: 20px;
-    background-color: #f44336; /* Red */
-    color: white;
+    background-color: #07D0FF; /* Red */
+    color: #000;
     margin: 15px 0;
 }
 
 .alert a {
-    color: #fff;
+    color: #000;
 }
 
 /* The close button */
@@ -71,3 +71,9 @@ article img {
     padding: 5px 0;
 }
 
+pre {
+    background: #000;
+    display: block;
+    padding: 15px;
+    max-height: 250px;
+}

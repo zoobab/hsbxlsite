@@ -1,0 +1,24 @@
+{{ partial "top.html" . }}
+
+<h1>{{ .Title }}</h1>
+
+{{ partial "share.html" . }}
+
+<div class="project_intro">
+    This {{ if eq .Params.state "running"}}is a running{{else}}was a{{ end }} project at HSBXL. See <a href="{{ .Site.BaseURL }}projects">other space projects</a>. <br />
+    {{ if isset .Params "maintainer"}}If you want more info about this project, ask '{{ .Params.maintainer }}'.{{end}}
+</div>
+
+<article>
+    {{ if isset .Params "image"}}
+    <img src="{{ .Site.BaseURL }}images/{{ .Params.image }}">
+    {{ end }}
+    {{ .Content }}
+
+</article>
+
+{{ if .IsPage }}
+[<a href="{{ .Site.Params.giteditpath }}/{{ .File.Path }}">Edit this page</a>]
+{{ end }}
+
+{{ partial "bottom.html" . }}

@@ -1,0 +1,33 @@
+{{ partial "top.html" . }}
+
+<h1>{{ .Title }}</h1>
+
+{{ with .Params.price }}<h5 class="price">Price: {{ . }}</h5>{{ end }}
+
+{{ partial "share.html" . }}
+
+<div class="toc">{{ partial "toc.html" . }}</div>
+
+<article>
+    {{ if isset .Params "image"}}
+    <img src="{{ .Site.BaseURL }}images/{{ .Params.image }}">
+    {{ end }}
+
+    <ul>
+        {{ range $.Site.RegularPages.ByParam "startdate" }}
+            {{ if eq .Type "events" }}
+                {{ if ge .Params.startdate (now.Format "2006-01-02") }}
+                    <li><a href="{{ .Permalink }}">{{ .Params.linktitle }}</a></li>
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    </ul>
+
+    {{ .Content }}
+</article>
+
+{{ if .IsPage }}
+[<a href="{{ .Site.Params.giteditpath }}/{{ .File.Path }}">Edit this page</a>]
+{{ end }}
+
+{{ partial "bottom.html" . }}

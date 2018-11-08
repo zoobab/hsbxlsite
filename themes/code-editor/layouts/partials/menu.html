@@ -1,14 +1,18 @@
 <nav class="col-md-3">
 
+    <div>
     {{ if $.Site.Params.codeeditor_menu_mostrecentposts | default true }}
     <h3 class="home-link"><a href="{{ index .Site.Params "rootlink" | default .Site.BaseURL }}">{{ ( index $.Site.Data.translations (default $.Site.Params.locale "en-US") ).root }}</a></h3>
+    </div>
 
     <div id="last-posts" class="open">
         <h3 data-open="last-posts">Welcome</h3>
         <ul>
-            <li><a href="https://wiki.hsbxl.be">Wiki</a></li>
+            <li><a href="{{ .Site.BaseURL }}projects">Projects</a></li>
+            <li><a href="{{ .Site.BaseURL }}events">Events</a></li>
             <li><a href="https://wiki.hsbxl.be/Contact">Get in contact</a></li>
             <li><a href="https://wiki.hsbxl.be/Mailing_list">Our mailing lists</a></li>
+            <li><a href="https://wiki.hsbxl.be">Archived wiki</a></li>
             <li><a href="https://ptt.hackerspaces.be/#/room/#hsbxl:hackerspaces.be">Chat (Matrix)</a></li>
             <li><a href="irc://irc.freenode.net/hsbxl">Chat (IRC)</a></li>
         </ul>
@@ -18,7 +22,7 @@
         <h3 data-open="last-posts">Agenda</h3>
         <ul>
             {{ range $.Site.RegularPages.ByParam "startdate" }}
-                {{ if eq .Type "event" }}
+                {{ if eq .Type "events" }}
                     {{ if ge .Params.startdate (now.Format "2006-01-02") }}
                         <li><a href="{{ .Permalink }}">{{ .Params.startdate | dateFormat "Mon 2 Jan 2006"}}: {{ .Params.linktitle }}</a></li>
                     {{ end }}

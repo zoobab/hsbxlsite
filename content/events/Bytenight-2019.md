@@ -12,6 +12,7 @@ eventtype: "Thé dansant"
 price: ""
 image: "bytenight.png"
 ---
+
 As an after-party to the big FOSDEM Free Software conference in Brussels, the oldest Hackerspace in town organises its annual free party.
 
 ## Music line up

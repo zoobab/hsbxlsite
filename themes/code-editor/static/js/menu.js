@@ -2,8 +2,8 @@
     var elements = document.querySelectorAll('[data-open]');
     for (var i=0; i<elements.length; i++) {
         initOpen(elements[i]);
-    }
 
+    }
     function initOpen(element) {
         var className = 'open';
         var target = document.getElementById(element.getAttribute('data-open'));

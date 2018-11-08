@@ -1,4 +1,4 @@
-baseurl = "https://hsbxl.gitlab.io/agenda/"
+baseurl = "https://hsbxl.gitlab.io/site/"
 languageCode = "en-us"
 title = "HSBXL AGENDA"
 theme = "code-editor"

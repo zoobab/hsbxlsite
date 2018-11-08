@@ -26,6 +26,7 @@ body {
 
 a {
   color: $link-color;
+  text-decoration: underline;
   &:hover {
     color: $link-color;
     text-decoration: underline;
@@ -195,4 +196,8 @@ article img {
 /* When moving the mouse over the close button */
 .closebtn:hover {
   color: black;
+}
+
+.project_intro {
+  border: 1px dotted #000000;
 }

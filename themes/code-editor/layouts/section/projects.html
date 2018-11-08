@@ -1,0 +1,65 @@
+{{ partial "top.html" . }}
+
+<h1>{{ .Title }}</h1>
+
+{{ with .Params.price }}<h5 class="price">Price: {{ . }}</h5>{{ end }}
+
+{{ partial "share.html" . }}
+
+<article>
+    {{ if isset .Params "image"}}
+    <img src="{{ .Site.BaseURL }}images/{{ .Params.image }}">
+    {{ end }}
+    {{ .Content }}
+
+    <h2>Running projects</h2>
+    Projects still active. Work in progress.
+    <ul>
+        {{ range $.Site.RegularPages.ByParam "linktitle" }}
+            {{ if eq .Type "projects" }}
+                {{ if eq .Params.state "running"}}
+                    {{ if ge .Params.startdate (now.Format "2006-01-02") }}
+                        <li><a href="{{ .Permalink }}">{{ .Params.linktitle }}</a></li>
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    </ul>
+
+    <h2>Finished projects</h2>
+    Projects made to perfection.
+    <ul>
+        {{ range $.Site.RegularPages.ByParam "linktitle" }}
+            {{ if eq .Type "projects" }}
+                {{ if eq .Params.state "archived"}}
+                    {{ if ge .Params.startdate (now.Format "2006-01-02") }}
+                        <li><a href="{{ .Permalink }}">{{ .Params.linktitle }}</a></li>
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    </ul>
+
+    <h2>Broken dreams</h2>
+    We all have em once in a while, don't we? <br />
+    Those awesome projects that never got finished because lack of time and/or intrest.<br />
+    An overview. Someone might pick it up one day.
+    <ul>
+        {{ range $.Site.RegularPages.ByParam "linktitle" }}
+            {{ if eq .Type "projects" }}
+                {{ if eq .Params.state "broken"}}
+                    {{ if ge .Params.startdate (now.Format "2006-01-02") }}
+                        <li><a href="{{ .Permalink }}">{{ .Params.linktitle }}</a></li>
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    </ul>
+
+</article>
+
+{{ if .IsPage }}
+[<a href="{{ .Site.Params.giteditpath }}/{{ .File.Path }}">Edit this page</a>]
+{{ end }}
+
+{{ partial "bottom.html" . }}

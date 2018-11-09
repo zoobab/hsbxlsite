@@ -30,12 +30,14 @@ https://gohugo.io/
 
 ### Embed a youtube video
 ~~~
-{{< youtube w7Ft2ymGmfc >}}
+{{< youtube oHg5SJYRHA0 >}}
 ~~~
-! Replace w7Ft2ymGmfc with the id of the youtube video you want to embed.
+! Replace oHg5SJYRHA0 with the id of the youtube video you want to embed.
+This id you find from the URL from that youtube video. https://www.youtube.com/watch?v=oHg5SJYRHA0 => oHg5SJYRHA0
 
 ### Embed a tweet
 ~~~
-{{< tweet 877500564405444608 >}}
+{{< tweet 1058467581231853570 >}}
 ~~~
-! Replace 877500564405444608 with the id of the youtube video you want to embed.
+! Replace 1058467581231853570 with the id of the youtube video you want to embed.  
+This number you find from the URL from that tweet. https://twitter.com/hsbxl/status/1058467581231853570 => 1058467581231853570

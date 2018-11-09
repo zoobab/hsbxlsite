@@ -12,6 +12,7 @@ test:
 
 pages:
   script:
+  - apt update
   - hugo
   artifacts:
     paths:

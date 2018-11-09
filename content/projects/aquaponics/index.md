@@ -13,4 +13,3 @@ Vivamus vitae pellentesque justo, in placerat quam. Maecenas risus lorem, laoree
 
 {{< gallery "images" >}}
 
-{{< twitter "gfdfdhgfhjg" >}}

@@ -1,7 +1,6 @@
 ---
 title: "Aquaponics"
 linktitle: "Aquaponics"
-date: 2018-11-06T22:08:31+01:00
 state: broken
 maintainer: "betz"
 ---
@@ -12,4 +11,3 @@ Vivamus vitae pellentesque justo, in placerat quam. Maecenas risus lorem, laoree
 
 
 {{< gallery "images" >}}
-

@@ -13,7 +13,8 @@ test:
 
 pages:
   script:
-  - apt update
+  - apt-get update
+  - apt-get install cadaver
   - hugo
   artifacts:
     paths:

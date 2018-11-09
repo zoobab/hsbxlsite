@@ -16,7 +16,7 @@ sectionPagesMenu = "main"
 [params]
     alert_text = "ALERT! We are being evicted from our location in Molenbeek. Help us finding a new hôme."
     alert_link = "https://wiki.hsbxl.be/Sudo_find_-name_space_/"
-    giteditpath = "https://gitlab.com/hsbxl/agenda/tree/master/content"
+    giteditpath = "https://gitlab.com/hsbxl/site/tree/master/content"
 
 	name = "Your name"
 	description = "Describe your website"

@@ -16,6 +16,7 @@ pages:
   - apt-get update
   - apt-get install cadaver -y
   - hugo
+  - ./scripts/copy_webdav.sh public https://hsbxl.be/dav/versions
   artifacts:
     paths:
     - public

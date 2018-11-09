@@ -11,3 +11,4 @@ image: "coremeeting.png"
 
 Our monthly CoreMeeting. Discussing main issues like the bookkeeping.
 Everyone is welcome on this meeting.
+

@@ -16,11 +16,18 @@
     <img src="{{ .Site.BaseURL }}images/{{ .Params.image }}">
     {{ end }}
     {{ .Content }}
-
 </article>
 
 {{ if .IsPage }}
 [<a href="{{ .Site.Params.giteditpath }}/{{ .File.Path }}">Edit this page</a>]
 {{ end }}
 
+
+<h2>Resources</h2>
+{{ range .Resources }}
+<li><a href="{{ .Permalink }}">{{ .Name }}</a></li>
+{{ end }}
+
+
 {{ partial "bottom.html" . }}
+

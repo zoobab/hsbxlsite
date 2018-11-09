@@ -10,3 +10,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus null
 
 Vivamus vitae pellentesque justo, in placerat quam. Maecenas risus lorem, laoreet at enim a, ultrices fermentum turpis. Fusce dictum tincidunt fermentum. Proin fermentum convallis ipsum in molestie. Pellentesque non arcu nulla. Donec tempus libero at est ullamcorper, quis blandit diam lobortis. Nam diam neque, hendrerit et tellus non, venenatis commodo tortor. Proin nulla magna, mollis nec tortor ac, euismod scelerisque mi.
 
+## images frm index.md
+{{< gallery "" >}}

@@ -1,0 +1,30 @@
+{{ partial "top.html" . }}
+
+{{ if .IsPage }}
+<h1>{{ .Title }}</h1>
+{{ end }}
+
+<h4 class="datetime">
+    {{ .Params.eventtype }} {{ if isset .Params "startdate"}}{{ .Params.startdate | dateFormat "Monday 2 January 2006"}}{{ end }} {{ if isset .Params "starttime"}}({{ .Params.starttime }}){{ end }}{{ if or (isset .Params "enddate") (isset .Params "endtime")}} till {{ end }}{{ if isset .Params "enddate"}}{{ .Params.enddate | dateFormat "Monday 2 January 2006"}}{{ end }}{{ if isset .Params "endtime"}} ({{ .Params.endtime }}){{ end }}{{ if isset .Params "location"}} @ {{ .Params.location }}{{ end }}.
+</h4>
+
+
+{{ with .Params.price }}<h5 class="price">Price: {{ . }}</h5>{{ end }}
+
+{{ partial "share.html" . }}
+
+<article>
+    {{ if isset .Params "image"}}
+    <img src="{{ .Site.BaseURL }}images/{{ .Params.image }}">
+    {{ end }}
+    {{ .Content }}
+</article>
+
+{{ if .IsPage }}
+[<a href="{{ .Site.Params.giteditpath }}/{{ .File.Path }}">Edit this page</a>]
+{{ end }}
+
+events/single
+{{ partial "bottom.html" . }}
+
+

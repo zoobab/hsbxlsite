@@ -1,0 +1,27 @@
+{{ partial "top.html" . }}
+
+<h1>Agenda</h1>
+
+<article>
+    {{ if isset .Params "image"}}
+    <img src="{{ .Site.BaseURL }}images/{{ .Params.image }}">
+    {{ end }}
+
+    <ul>
+        {{ range $.Site.RegularPages.ByParam "startdate" }}
+        {{ if eq .Type "events" }}
+        {{ if ge .Params.startdate (now.Format "2006-01-02") }}
+        <li><a href="{{ .Permalink }}"><img src="{{ .Site.BaseURL }}images/{{ .Params.image }}">{{ .Params.linktitle }}</a></li>
+        {{ end }}
+        {{ end }}
+        {{ end }}
+    </ul>
+
+    {{ .Content }}
+</article>
+
+{{ if .IsPage }}
+[<a href="{{ .Site.Params.giteditpath }}/{{ .File.Path }}">Edit this page</a>]
+{{ end }}
+
+{{ partial "bottom.html" . }}

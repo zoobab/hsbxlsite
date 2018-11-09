@@ -32,7 +32,7 @@ https://gohugo.io/
 ~~~
 {{< youtube oHg5SJYRHA0 >}}
 ~~~
-! Replace oHg5SJYRHA0 with the id of the youtube video you want to embed.
+! Replace oHg5SJYRHA0 with the id of the youtube video you want to embed.  
 This id you find from the URL from that youtube video. https://www.youtube.com/watch?v=oHg5SJYRHA0 => oHg5SJYRHA0
 
 ### Embed a tweet

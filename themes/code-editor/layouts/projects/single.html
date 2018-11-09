@@ -18,10 +18,6 @@
     {{ .Content }}
 </article>
 
-{{ if .IsPage }}
-[<a href="{{ .Site.Params.giteditpath }}/{{ .File.Path }}">Edit this page</a>]
-{{ end }}
-
 
 <h2>Resources</h2>
 {{ range .Resources }}
@@ -29,5 +25,10 @@
 {{ end }}
 
 
-{{ partial "bottom.html" . }}
+{{ if .IsPage }}
+<h2>Edit</h2>
+[<a href="{{ .Site.Params.giteditpath }}/{{ .File.Path }}">Edit this page</a>]
+{{ end }}
 
+
+{{ partial "bottom.html" . }}

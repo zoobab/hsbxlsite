@@ -13,9 +13,11 @@
     {{ .Content }}
 </article>
 
+<div class="pad">Public pad: <a href="https://etherpad.openstack.org/p/techtuesday{{.Source.BaseFileName}}">https://etherpad.openstack.org/p/techtuesday{{.Source.BaseFileName}}</a> </div>
+
 {{ if .IsPage }}
 <div class="editpage">
-[<a href="{{ .Site.Params.giteditpath }}/{{ .File.Path }}">Edit this page</a>]
+<a href="{{ .Site.Params.giteditpath }}/{{ .File.Path }}">[Edit this page]</a>
 </div>
 {{ end }}
 

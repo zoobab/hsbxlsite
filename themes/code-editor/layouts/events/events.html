@@ -7,11 +7,23 @@
     <img src="{{ .Site.BaseURL }}images/{{ .Params.image }}">
     {{ end }}
 
+    <h2>Upcoming events</h2>
     <ul>
         {{ range $.Site.RegularPages.ByParam "startdate" }}
-        {{ if eq .Type "events" }}
+        {{ if or (eq .Type "events") (eq .Type "techtuesday") }}
         {{ if ge .Params.startdate (now.Format "2006-01-02") }}
-        <li><a href="{{ .Permalink }}"><img src="{{ .Site.BaseURL }}images/{{ .Params.image }}">{{ .Params.linktitle }}</a></li>
+        <li><a href="{{ .Permalink }}">{{ .Params.startdate | dateFormat "Mon 2 Jan 2006"}}: {{ .Params.linktitle }}</a></li>
+        {{ end }}
+        {{ end }}
+        {{ end }}
+    </ul>
+
+    <h2>Past events</h2>
+    <ul>
+        {{ range $.Site.RegularPages.ByParam "startdate" }}
+        {{ if or (eq .Type "events") (eq .Type "techtuesday") }}
+        {{ if le .Params.startdate (now.Format "2006-01-02") }}
+        <li><a href="{{ .Permalink }}">{{ .Params.startdate | dateFormat "Mon 2 Jan 2006"}}: {{ .Params.linktitle }}</a></li>
         {{ end }}
         {{ end }}
         {{ end }}

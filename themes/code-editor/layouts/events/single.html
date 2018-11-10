@@ -20,11 +20,14 @@
     {{ .Content }}
 </article>
 
+
 {{ if .IsPage }}
+<div class="editpage"></div>
 [<a href="{{ .Site.Params.giteditpath }}/{{ .File.Path }}">Edit this page</a>]
 {{ end }}
 
-events/single
+
+
 {{ partial "bottom.html" . }}
 
 

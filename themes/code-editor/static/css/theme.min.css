@@ -91,3 +91,25 @@ pre {
 .editpage {
     margin: 20px 0;
 }
+
+
+h1 {
+    margin: 0;
+}
+.breadcrumb {
+    list-style: none;
+    overflow: hidden;
+    font: 12px Sans-Serif;
+    padding: 0;
+    margin: 0 0 20px;
+}
+.breadcrumb li {
+    padding: 0 5px 0 0!important;
+    float: left;
+    color: white;
+    text-decoration: none;
+    padding: 10px 0 10px 65px;
+    position: relative;
+    display: block;
+    float: left;
+}

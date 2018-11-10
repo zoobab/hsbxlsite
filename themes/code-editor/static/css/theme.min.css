@@ -96,6 +96,12 @@ pre {
 h1 {
     margin: 0;
 }
+h4 {
+    margin: 0;
+}
+h5 {
+    margin: 0 0 20px;
+}
 .breadcrumb {
     list-style: none;
     overflow: hidden;

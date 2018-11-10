@@ -62,26 +62,25 @@ info on this.
 
 ### Nitrogen
 
-{{\#ev:youtube|o8n8h2ljrP8|250|auto|Aquaponic Plant Nutrients:
-Nitrogen}}
+{{< youtube o8n8h2ljrP8 >}}
 
 ### Phosphorus
 
-{{\#ev:youtube|Hy9J14i3LzU|250|auto|Aquaponic Plant Nutrients:
-Phosphorus}}
+{{< youtube Hy9J14i3LzU >}}
 
 ### Potassium
 
-{{\#ev:youtube|4XwrpIrz8tQ|250|auto|Aquaponic Plant Nutrients: Potassium
-(Part 1)}} {{\#ev:youtube|w322SbyOqfU|250|auto|Aquaponic Plant
-Nutrients: Potassium (Part 2)}}
-{{\#ev:youtube|aGi28b5u9DI|250|auto|Aquaponic Plant Nutrients: Potassium
-(Part 3)}} {{\#ev:youtube|Cgu7uOWTbJw|250|auto|Aquaponic Plant
-Nutrients: Potassium (Part 4)}}
+{{< youtube 4XwrpIrz8tQ >}}  
+
+{{< youtube w322SbyOqfU >}}  
+
+{{< youtube aGi28b5u9DI >}}  
+
+{{< youtube Cgu7uOWTbJw >}}  
 
 ### Calcium
 
-{{\#ev:youtube|GGcxyTKTl5U|250|auto|Aquaponic Plant Nutrients: Calcium}}
+{{< youtube GGcxyTKTl5U >}}
 
 # Aquaponics project at Hackaday.io
 

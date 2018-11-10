@@ -1,7 +1,7 @@
 <div class="gallery">
 
     {{ $directory :=  .Get 0}}
-    {{ $resources := .Page.Resources.Match ( print $directory "/*") }}
+    {{ $resources := .Page.Resources.ByType "image" }}
     {{ range $resources }}
     {{ with . }}
     {{ $image200x := (.Resize "100x") }}
@@ -12,3 +12,5 @@
     {{ end }}
 
 </div>
+
+erer

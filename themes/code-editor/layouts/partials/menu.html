@@ -24,10 +24,11 @@
         <ul>
             {{ range $.Site.RegularPages.ByParam "startdate" }}
                 {{ if eq .Type "events" }}
-                    {{ if ge .Params.startdate (now.Format "2006-01-02") }}
+                    {{ if isset .Params "startdate" }}
+                        {{ if ge .Params.startdate (now.Format "2006-01-02") }}
                         <li><a href="{{ .Permalink }}">{{ .Params.startdate | dateFormat "Mon 2 Jan 2006"}}: {{ .Params.linktitle }}</a></li>
+                        {{ end }}
                     {{ end }}
-
                 {{ end }}
             {{ end }}
         </ul>

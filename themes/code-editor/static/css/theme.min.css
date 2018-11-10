@@ -81,3 +81,9 @@ pre {
 .gallery a {
     text-decoration: none;
 }
+
+.content {
+    background-image: url(/site/images/linenumbers.png);
+    background-repeat: repeat-y;
+    padding-left: 40px;
+}

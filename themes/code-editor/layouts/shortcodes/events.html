@@ -33,17 +33,29 @@
 </div>
 {{ end }}
 
-
 {{ if or (eq $when "past") }}
 <div class="events">
-
     <ul>
         {{ range $.Site.RegularPages.ByParam "startdate" }}
         {{ if or (eq .Type "events") (eq .Type "techtuesday") }}
+
+        {{ if ne $series "all" }}
+
+        {{ if eq .Params.series $series}}
         {{ if isset .Params "startdate" }}
         {{ if le .Params.startdate (now.Format "2006-01-02") }}
         <li><a href="{{ .Permalink }}">{{ .Params.startdate | dateFormat "Mon 2 Jan 2006"}}: {{ .Params.linktitle }}</a></li>
         {{ end }}
+        {{ end }}
+        {{ end }}
+
+        {{ else }}
+        {{ if isset .Params "startdate" }}
+        {{ if le .Params.startdate (now.Format "2006-01-02") }}
+        <li><a href="{{ .Permalink }}">{{ .Params.startdate | dateFormat "Mon 2 Jan 2006"}}: {{ .Params.linktitle }}</a></li>
+        {{ end }}
+        {{ end }}
+
         {{ end }}
         {{ end }}
         {{ end }}

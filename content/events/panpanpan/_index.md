@@ -9,5 +9,5 @@ Some intro about Panpanpan...
 ## Upcoming panpanpan
 {{< events when="upcoming" series="panpanpan" >}}
 
-## Pastpanpanpan
+## Past panpanpan
 {{< events when="past" series="panpanpan" >}}

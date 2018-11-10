@@ -3,7 +3,6 @@ title: "Get in contact"
 linktitle: "Get in contact"
 ---
 
-{{< toc >}}
 
 - **Address:** rue de manchester / manchesterstraat 21, 1080
     Molenbeek, Brussels, Belgium

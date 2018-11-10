@@ -1,9 +1,7 @@
 {{ partial "top.html" . }}
 
 <h1>{{ .Title }}</h1>
-
-{{ .Params.series }}
-
+{{ partial "breadcrumbs.html" . }}
 
 {{ .Content }}
 

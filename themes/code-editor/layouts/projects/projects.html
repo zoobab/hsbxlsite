@@ -1,6 +1,7 @@
 {{ partial "top.html" . }}
 
 <h1>{{ .Title }}</h1>
+{{ partial "breadcrumbs.html" . }}
 
 {{ with .Params.price }}<h5 class="price">Price: {{ . }}</h5>{{ end }}
 

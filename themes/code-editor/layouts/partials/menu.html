@@ -39,7 +39,7 @@
         <ul>
             <li>Every Tuesday is TechTuesday, an open evening for both members and visitors.</li>
             {{ range $.Site.RegularPages.ByParam "startdate" }}
-                {{ if eq .Type "techtuesday" }}
+                {{ if eq .Type "events/techtuesday" }}
                     {{ if ge .Params.startdate (now.Format "2006-01-02") }}
                         <li><a href="{{ .Permalink }}">{{ .Params.startdate | dateFormat "Mon 2 Jan 2006"}}: {{ .Params.linktitle }}</a></li>
                     {{ end }}

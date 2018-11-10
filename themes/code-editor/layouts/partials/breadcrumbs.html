@@ -2,7 +2,7 @@
 {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
 {{ $.Scratch.Add "path" .Site.BaseURL }}
 <ul class="breadcrumb">
-    <li><a href="/">Root</a></li>
+    <li><a href="{{.Site.BaseURL}}">Root</a></li>
     {{ range $index, $element := split $url "/" }}
     {{ $.Scratch.Add "path" $element }}
     {{ if ne $element "" }}

@@ -5,9 +5,135 @@ state: broken
 maintainer: "betz"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus nulla et nisi consectetur, sit amet sodales quam pellentesque. Ut iaculis erat eget auctor gravida. Quisque neque est, tempor vitae ligula ut, ullamcorper sagittis quam. Ut mollis lacus et nibh iaculis, sit amet finibus sapien euismod. Mauris bibendum fringilla malesuada. Etiam augue ipsum, dignissim at erat sed, sollicitudin tempus ligula. In hac habitasse platea dictumst. Pellentesque dictum elit sed lacus lobortis hendrerit sit amet tristique nisl. Maecenas molestie sit amet massa ac ornare. Fusce sit amet scelerisque augue, sed tristique tortor. Nullam eu sapien convallis, mollis metus at, bibendum velit. Nullam eu risus nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce venenatis augue vel leo feugiat venenatis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti.
+# What is Aquaponics
 
-Vivamus vitae pellentesque justo, in placerat quam. Maecenas risus lorem, laoreet at enim a, ultrices fermentum turpis. Fusce dictum tincidunt fermentum. Proin fermentum convallis ipsum in molestie. Pellentesque non arcu nulla. Donec tempus libero at est ullamcorper, quis blandit diam lobortis. Nam diam neque, hendrerit et tellus non, venenatis commodo tortor. Proin nulla magna, mollis nec tortor ac, euismod scelerisque mi.
+Aquaponics (pronunciation: /ˈækwəˈpɒnɨks/), or pisciponics, is a
+sustainable food production system that combines conventional
+aquaculture, (raising aquatic animals such as snails, fish, crayfish or
+prawns in tanks), with hydroponics (cultivating plants in water) in a
+symbiotic environment. In aquaculture, effluents accumulate in the
+water, increasing toxicity for the fish. This water is led to a
+hydroponic system where the by-products from the aquaculture are broken
+down by nitrogen fixing bacteria, then filtered out by the plants as
+nutrients, after which the cleaned water is recirculated back to the
+animals. As existing hydroponic and aquaculture farming techniques form
+the basis for all aquaponics systems, the size, complexity, and types of
+foods grown in an aquaponics system can vary as much as any system found
+in either distinct farming discipline. (From
+<http://en.wikipedia.org/wiki/Aquaponics>)
 
+Picture from opensourceecology.org
 
+# Goals
+
+  - Cultivate vegetables and fruit all year long.
+  - Work out good fish feed program and how to make your own fish food.
+  - Make a automatic fish feeder.
+  - Build a command and control center.
+
+# Fish
+
+For the moment we have about 10 small guppies and 10 goldfish.
+
+# Command and Control
+
+For absolute awesome-sauce, we automate the whole aquaponics process.
+Many things are monitored, and we have one command and control center
+that manages everything.
+
+See [1](http://hackerspace.be/Aquaponics/command-and-control) for more
+info on this.
+
+# Stuff to take into account
+
+## Energy consumption
+
+  - Water flow pump (for circuit between fish tank and filter tank).
+  - Water flow pump (for circuit between filter tank and NFT system).
+  - Germinator, runs 5 minutes each 2 hours to keep the germs humid.
+  - Light fishtank.
+  - Light NFT system.
+  - Running Raspberry Pi for continuous measurement of water level,
+    temperature, ph, etc.
+
+# Maintaining a healthy aquaponics setup
+
+## Nutrients
+
+### Nitrogen
+
+{{\#ev:youtube|o8n8h2ljrP8|250|auto|Aquaponic Plant Nutrients:
+Nitrogen}}
+
+### Phosphorus
+
+{{\#ev:youtube|Hy9J14i3LzU|250|auto|Aquaponic Plant Nutrients:
+Phosphorus}}
+
+### Potassium
+
+{{\#ev:youtube|4XwrpIrz8tQ|250|auto|Aquaponic Plant Nutrients: Potassium
+(Part 1)}} {{\#ev:youtube|w322SbyOqfU|250|auto|Aquaponic Plant
+Nutrients: Potassium (Part 2)}}
+{{\#ev:youtube|aGi28b5u9DI|250|auto|Aquaponic Plant Nutrients: Potassium
+(Part 3)}} {{\#ev:youtube|Cgu7uOWTbJw|250|auto|Aquaponic Plant
+Nutrients: Potassium (Part 4)}}
+
+### Calcium
+
+{{\#ev:youtube|GGcxyTKTl5U|250|auto|Aquaponic Plant Nutrients: Calcium}}
+
+# Aquaponics project at Hackaday.io
+
+<http://hackaday.io/project/392>
+
+# Other Aquaponics projects
+
+## Aquaponics at Mediamatic
+
+See <http://www.mediamatic.net/251284/nl/wat-is-aquaponics>
+
+## Aquaponics at aquaponic.be
+
+By Valentijn, Lotte & Stijn.
+
+See <http://www.aquaponic.be/en/ons-aquaponics-systeem>
+
+# Research materials
+
+  - [Aquaponics on
+    wikipedia.org](http://en.wikipedia.org/wiki/Aquaponics)
+  - [Aquaponics on
+    opensourceecology.org](http://opensourceecology.org/wiki/Aquaponics)
+  - \[<http://www.youtube.com/watch?v=bVCaczil4W4>: Composting, the Jean
+    Pain method\]
+  - [Open source ecology: A stirling
+    engine](http://opensourceecology.org/wiki/Stirling_Engine)
+  - [Youtube aquaponics
+    video](http://www.youtube.com/watch?v=VBspR2p0YYM)
+  - [Noisebridge Bioboard wiki
+    page](https://www.noisebridge.net/wiki/BioBoard)
+  - [Long-day control of flowering in everbearing
+    strawberries](http://www.bioforsk.no/ikbViewer/Content/31912/S%C3%B8nsteby%26HeideJHSB-07%2082\(6\)875-884.pdf)
+  - [The effect of red and blue light component on the growth and
+    development of frigo
+    strawberries](http://www.lzi.lt/tomai/97\(2\)tomas/97_2_tomas_str11.pdf)
+  - [Microbial solar cells: applying photosynthetic and
+    electrochemically active
+    organisms](http://www.bio.uni-kl.de/fileadmin/agneuhaus/Lehre/Vorlesung_Insights/strik_et_al_trend_biot_2012_29_41.pdf)
+  - <http://www.aboutgreenhouses.com/solarengstor.htm>
+  - <http://urbanfarmfanatic.wordpress.com/2012/07/07/646>
+  - <http://www.fao.org/docrep/015/i2125e/i2125e.pdf>
+  - <http://en.wikipedia.org/wiki/Oxygen_saturation>
+  - <http://en.wikipedia.org/wiki/Water_aeration>
+  - <https://dl.dropboxusercontent.com/u/3097377/Water%20Pumps.pdf>
+
+# get in touch
+
+  - <http://www.aquaponic.be>
+  - <http://www.aeschylus-philanthropy.eu/index.php/b/project/aqua4c>
+  - <http://www.eco-innovation.net>
+  - <http://groupeone.be>
+
+# Photo gallery
 {{< gallery "images" >}}

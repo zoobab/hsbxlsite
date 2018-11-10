@@ -7,14 +7,16 @@ image: monachus/hugo
 
 test:
   script:
+  - hugo version
   - hugo
   except:
   - master
 
 pages:
-  script:
+script:
   #- apt-get update
   #- apt-get install cadaver -y
+  - hugo version
   - hugo
   #- ./scripts/copy_webdav.sh public https://hsbxl.be/dav/versions
   artifacts:

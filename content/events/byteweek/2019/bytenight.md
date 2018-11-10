@@ -1,20 +1,27 @@
 ---
 startdate:  2019-02-02
-starttime: "from 18h"
-#enddate: 2019-02-02
-#endtime: "05h"
+starttime: "18h"
 linktitle: "Bytenight"
-title: "ByteNight"
+title: "Bytenight 2019"
 location: "HSBXL"
-eventtype: ""
+eventtype: "Thé dansant"
 price: ""
-#image: "bytenight.png"
+image: "bytenight.png"
+series: "bitday2019"
+aliases: [/bytenight/]
 ---
 
-## Stable version
-- [Bytenight v2019]({{<ref "events/bytenight/2019.md">}})
+As an after-party to the big FOSDEM Free Software conference in Brussels, the oldest Hackerspace in town organises its annual free party.
 
-## Unsupported, deprecated versions
+# Music line up
+Weird music for weird people.
+
+* Jo 'dJc' Clarysse
+* CIRC8
+* Jonny and the bomb
+* Open impro table in the back
+
+# Unsupported, deprecated versions
 - [Bytenight v2018](https://wiki.hsbxl.be/Bytenight_2018)
 - [Bytenight v2017](https://wiki.hsbxl.be/Bytenight_2017)
 - [Bytenight v2016](https://wiki.hsbxl.be/Bytenight_2016)
@@ -24,3 +31,8 @@ price: ""
 - [Bytenight v2012](https://wiki.hsbxl.be/Bytenight_2012)
 - [Bytenight v2011](https://wiki.hsbxl.be/Bytenight_2011)
 - [Bytenight v2010](https://wiki.hsbxl.be/Bytenight_2010)
+
+
+# Organizing
+Notes can be found on https://etherpad.openstack.org/p/bytenight2018
+

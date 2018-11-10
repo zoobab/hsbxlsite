@@ -100,7 +100,7 @@ h4 {
     margin: 0;
 }
 h5 {
-    margin: 0 0 20px;
+    margin: 0;
 }
 .breadcrumb {
     list-style: none;
@@ -118,4 +118,8 @@ h5 {
     position: relative;
     display: block;
     float: left;
+}
+
+.content_image {
+    margin: 20px 0;
 }

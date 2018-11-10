@@ -28,7 +28,7 @@
                 {{ if eq .Type "events" }}
                     {{ if isset .Params "startdate" }}
                         {{ if ge .Params.startdate (now.Format "2006-01-02") }}
-                        <li><a href="{{ .Permalink }}">{{ .Params.startdate | dateFormat "Mon 2 Jan 2006"}}: {{ .Params.linktitle }}</a></li>
+                        <li><a href="{{ .Permalink }}">{{ .Params.startdate | dateFormat "Mon 2 Jan"}}: {{ .Params.linktitle }}</a></li>
                         {{ end }}
                     {{ end }}
                 {{ end }}
@@ -43,7 +43,7 @@
             {{ range $.Site.RegularPages.ByParam "startdate" }}
                 {{ if eq .Type "events/techtuesday" }}
                     {{ if ge .Params.startdate (now.Format "2006-01-02") }}
-                        <li><a href="{{ .Permalink }}">{{ .Params.startdate | dateFormat "Mon 2 Jan 2006"}}: {{ .Params.linktitle }}</a></li>
+                        <li><a href="{{ .Permalink }}">{{ .Params.startdate | dateFormat "Mon 2 Jan"}}: {{ .Params.linktitle }}</a></li>
                     {{ end }}
                 {{ end }}
             {{ end }}

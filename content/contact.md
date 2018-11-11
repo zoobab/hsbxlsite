@@ -29,6 +29,11 @@ linktitle: "Get in contact"
 
 # How to get there?
 
+**Address:**  
+Manchesterstraat 21,  
+1080 Molenbeek,  
+Brussels, Belgium
+
 ## By public transport 🚆
 
 From Brussels south train station:
@@ -39,11 +44,6 @@ From Brussels south train station:
     [Route](https://www.google.nl/maps/dir/M%C3%A9tro+Station+Delacroix,+Birminghamstraat+98,+1070+Anderlecht/Hackerspace+Brussels+HSBXL,+Manchesterstraat+21,+1080+Brussel/@50.8474325,4.3241349,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x47c3c408fb67182d:0x9457582c067c55e1!2m2!1d4.3234784!2d50.8458363!1m5!1m1!1s0x47c3c37ae6875a27:0x962d7fc36e046fa7!2m2!1d4.3284331!2d50.8478873!3e2)
 
 ## By car 🚘
-
-**Address:**  
-Manchesterstraat 21,  
-1080 Molenbeek,  
-Brussels, Belgium
 
 We have a private parking for about 20 cars.
 

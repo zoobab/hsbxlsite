@@ -2,6 +2,25 @@
 {{ $series :=  .Get "series"}}
 
 
+{{ if eq $when "" }}
+<div class="events">
+    <ul>
+        {{ range $.Site.RegularPages.ByParam "startdate" }}
+            {{ if or (eq .Type "events") (eq .Type "techtuesday") }}
+                {{ if ne $series "all" }}
+                    {{ if eq .Params.series $series}}
+                        <li><a href="{{ .Permalink }}">{{ .Params.startdate | dateFormat "Mon 2 Jan 2006"}}{{ if isset .Params "enddate" }} till {{ .Params.enddate | dateFormat "Mon 2 Jan 2006"}}{{ end }}: {{ .Params.linktitle }}</a></li>
+                    {{ end }}
+                {{ else }}
+                    <li><a href="{{ .Permalink }}">{{ .Params.startdate | dateFormat "Mon 2 Jan 2006"}}{{ if isset .Params "enddate" }} till {{ .Params.enddate | dateFormat "Mon 2 Jan 2006"}}{{ end }}: {{ .Params.linktitle }}</a></li>
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    </ul>
+</div>
+{{ end }}
+
+
 {{ if or (eq $when "upcoming") }}
 <div class="events">
     <ul>

@@ -11,7 +11,12 @@ series: "bitday2019"
 aliases: [/bytenight/]
 ---
 
+
 As an after-party to the big FOSDEM Free Software conference in Brussels, the oldest Hackerspace in town organises its annual free party.
+
+# \o/ \0/ 10th edition! \o/ \0/ \o/
+
+![Party!](party.jpg "Party!")
 
 # Music line up
 Weird music for weird people.

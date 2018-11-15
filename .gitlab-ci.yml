@@ -5,12 +5,12 @@ image: klakegg/hugo:alpine
 #variables:
 #  GIT_SUBMODULE_STRATEGY: recursive
 
-test:
-  script:
-  - hugo version
-  - hugo
-  except:
-  - master
+#test:
+#  script:
+#  - hugo version
+#  - hugo
+#  except:
+#  - master
 
 pages:
   script:

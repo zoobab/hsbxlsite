@@ -14,12 +14,10 @@ test:
 
 pages:
   script:
-  #- apt-get update
-  #- apt-get install cadaver -y
   - hugo version
   - hugo
-  - echo $(date +%y.%m.%d)
-  #- ./scripts/copy_webdav.sh public https://hsbxl.be/dav/versions
+  - echo $(date +%Y.%m.%d)
+  - scp -r public hsbxl.be:/srv/www/hsbxl.be/www/versions/$(date +%Y.%m.%d)/
   artifacts:
     paths:
     - public

@@ -1,6 +1,9 @@
+{{if gt (len .TableOfContents) 2}}
 <aside>
     <header>
         <h2>Table of contents</h2>
     </header>
     {{.TableOfContents}}
+
 </aside>
+{{ end }}

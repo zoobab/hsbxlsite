@@ -12,13 +12,14 @@
 
 {{ partial "share.html" . }}
 
+{{ partial "toc.html" . }}
+
 <article>
     {{ if isset .Params "image"}}
     <img class="content_image" src="{{ .Site.BaseURL }}images/{{ .Params.image }}">
     {{ end }}
     {{ .Content }}
 </article>
-
 
 {{ if .IsPage }}
 <div class="editpage"></div>

@@ -33,7 +33,7 @@ pages:
   - echo $(date +%Y.%m.%d)
   - tar cz public | ssh gitlab@hsbxl.be "mkdir -p /www/versions/$(date +%Y.%m.%d); cd /www/versions/$(date +%Y.%m.%d); tar xz"
   #- scp -r public gitlab@hsbxl.be:/srv/www/hsbxl.be/www/versions/$(date +%Y.%m.%d)/
-  - ssh gitlab@hsbxl.be "rm /www/live; ln -sf /www/versions/$(date +%Y.%m.%d)/public /www/live"
+  - ssh gitlab@hsbxl.be "rm /www/live; ln -sf versions/$(date +%Y.%m.%d)/public /www/live"
   artifacts:
     paths:
     - public

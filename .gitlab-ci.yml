@@ -1,6 +1,6 @@
-image: registry.gitlab.com/pages/hugo:latest
+#image: registry.gitlab.com/pages/hugo:latest
 #image: klakegg/hugo:alpine
-#image: monachus/hugo
+image: monachus/hugo
 
 #variables:
 #  GIT_SUBMODULE_STRATEGY: recursive

@@ -17,7 +17,7 @@ pages:
   - hugo version
   - hugo
   - echo $(date +%Y.%m.%d)
-  - scp -r public hsbxl.be:/srv/www/hsbxl.be/www/versions/$(date +%Y.%m.%d)/
+  - scp -r public gitlab@hsbxl.be:/srv/www/hsbxl.be/www/versions/$(date +%Y.%m.%d)/
   artifacts:
     paths:
     - public

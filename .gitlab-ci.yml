@@ -17,7 +17,7 @@ before_script:
   - apt-get update
   - apt-get install openssh-client -y
   - eval $(ssh-agent -s)
-  - echo "$PUBKEY" | tr -d '\r' | ssh-add - > /dev/null
+  - echo "$PRIVKEY" | tr -d '\r' | ssh-add - > /dev/null
   - mkdir -p ~/.ssh
   - chmod 700 ~/.ssh
   #- echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts

@@ -32,6 +32,7 @@ pages:
   - hugo
   - echo $(date +%Y.%m.%d)
   - scp -r public gitlab@hsbxl.be:/srv/www/hsbxl.be/www/versions/$(date +%Y.%m.%d)/
+  - ssh gitlab@hsbxl.be "rm /srv/www/hsbxl.be/www/welcome; ln -sf /srv/www/hsbxl.be/www/versions/$(date +%Y.%m.%d)/ /srv/www/hsbxl.be/www/welcome"
   artifacts:
     paths:
     - public

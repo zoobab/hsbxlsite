@@ -1,6 +1,6 @@
 ---
 title: HSBXL Network Layout
-linktitle: network layout
+linktitle: Network Layout
 state: running
 ---
 

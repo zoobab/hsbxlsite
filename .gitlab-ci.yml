@@ -17,7 +17,7 @@ pages:
   #- apk update
   #- apk add hugo
   - apt-get update
-  - apt-get install openssh-client
+  - apt-get install openssh-client -y
   - hugo version
   - hugo
   - echo $(date +%Y.%m.%d)

@@ -16,6 +16,7 @@ pages:
   script:
   #- apk update
   #- apk add hugo
+  - apt update
   - hugo version
   - hugo
   - echo $(date +%Y.%m.%d)

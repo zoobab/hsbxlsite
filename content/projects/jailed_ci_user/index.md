@@ -6,6 +6,8 @@ maintainer: 'Askarel'
 ---
 
 # Our setup for a jailed CI user.
+For deploying [this Hugo static website](../website), we needed a 'Jailed CI user'.  
+A SSH user which is limied to a set of commands and directories.  
 
 ## Create a regular user
 ~~~~

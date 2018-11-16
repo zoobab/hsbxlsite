@@ -83,7 +83,7 @@ pre {
 }
 
 .content {
-    background-image: url(/welcome/images/linenumbers.png);
+    background-image: url(/images/linenumbers.png);
     background-repeat: repeat-y;
     padding-left: 40px;
 }

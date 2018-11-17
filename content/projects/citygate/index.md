@@ -23,4 +23,4 @@ We visit our new spot on [Tuesday 20/11/2018 6PM](/events/techtuesday/499/).
 # Project tickets
 We have a kanboard for this project on
 
-{{< iframe src="http://board.hsbxl.be/public/board/92f64c2dea846541a1247d8bc72ed46be5c6a8023514e8de0c7ae0f0e632" link="http://board.hsbxl.be/board/1" >}}
+{{< iframe src="https://board.hsbxl.be/public/board/92f64c2dea846541a1247d8bc72ed46be5c6a8023514e8de0c7ae0f0e632" link="https://board.hsbxl.be/board/1" >}}

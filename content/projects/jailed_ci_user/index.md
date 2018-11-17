@@ -19,9 +19,10 @@ A SSH user which is limited to a set of commands and directories.
 # apt-get install busybox-static
 ~~~~
 
-## Create directories
+## Create directories and symlinks
 ~~~~
-# mkdir -p /home/ci-jail/dev /home/ci-jail/bin /home/ci-jail/www /home/ci-jail/ci-jail/.ssh
+# mkdir -p /home/ci-jail/dev /home/ci-jail/bin /home/ci-jail/www /home/ci-jail/ci-jail/.ssh /home/gitlab-jail/home/gitlab-jail
+# ln -s /gitlab /home/gitlab-jail/home/gitlab-jail/gitlab
 ~~~~
 
 ## Copy busybox to it's destination

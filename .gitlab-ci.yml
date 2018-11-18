@@ -27,7 +27,8 @@ before_script:
 pages:
   variables:
     GITLAB_USER_LOGIN: $GITLAB_USER_LOGIN
-    CI_BUILD_REF: "hello world"
+    CI_BUILD_REF: $CI_BUILD_REF
+    CI_COMMIT_MESSAGE: $CI_COMMIT_MESSAGE
   script:
   #- apk update
   #- apk add hugo

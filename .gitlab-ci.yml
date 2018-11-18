@@ -33,7 +33,7 @@ pages:
   - echo $(date +%Y.%m.%d)
   - tar cz public | ssh gitlab@hsbxl.be "mkdir -p /www/versions/$(date +%Y.%m.%d); cd /www/versions/$(date +%Y.%m.%d); tar xz; rm /www/live; ln -sf versions/$(date +%Y.%m.%d)/public /www/live"
   #- curl -XPOST -d '{"msgtype":"m.text", "body":"Website updated by "'"$GITLAB_USER_LOGIN"'" "'"$CI_COMMIT_MESSAGE"'""}' "https://hackerspaces.be/_matrix/client/r0/rooms/!mnQLxCDhwmKozNmuIB:hackerspaces.be/send/m.room.message?access_token=$MATRIX_ACCESS_TOKEN"
-  - curl -X POST https://hackerspaces.be/_matrix/client/r0/rooms/!mnQLxCDhwmKozNmuIB:hackerspaces.be/send/m.room.message\?access_token\=MDAxZGxvY2F0aW9uIGhhY2tlcnNwYWNlcy5iZQowMDEzaWRlbnRpZmllciBrZXkKMDAxMGNpZCBnZW4gPSAxCjAwMmFjaWQgdXNlcl9pZCA9IEBnaXRsYWI6aGFja2Vyc3BhY2VzLmJlCjAwMTZjaWQgdHlwZSA9IGFjY2VzcwowMDIxY2lkIG5vbmNlID0geXgrNUJZK211aWk0dnN5dQowMDJmc2lnbmF0dXJlIOEs7nsIv4K9Fj1mhcnGjkbwxHn-Y13vSlNz6kcVGKYjCg -d ' { "msgtype": "m.text", "body": "$CI_COMMIT_MESSAGE" } ' -H "Content-Type: application/json"
+  - curl -X POST https://hackerspaces.be/_matrix/client/r0/rooms/\!mnQLxCDhwmKozNmuIB:hackerspaces.be/send/m.room.message\?access_token\=MDAxZGxvY2F0aW9uIGhhY2tlcnNwYWNlcy5iZQowMDEzaWRlbnRpZmllciBrZXkKMDAxMGNpZCBnZW4gPSAxCjAwMmFjaWQgdXNlcl9pZCA9IEBnaXRsYWI6aGFja2Vyc3BhY2VzLmJlCjAwMTZjaWQgdHlwZSA9IGFjY2VzcwowMDIxY2lkIG5vbmNlID0geXgrNUJZK211aWk0dnN5dQowMDJmc2lnbmF0dXJlIOEs7nsIv4K9Fj1mhcnGjkbwxHn-Y13vSlNz6kcVGKYjCg -d ' { "msgtype": "m.text", "body": "$CI_COMMIT_MESSAGE" } ' -H "Content-Type: application/json"
   #- scp -r public gitlab@hsbxl.be:/srv/www/hsbxl.be/www/versions/$(date +%Y.%m.%d)/
   #- ssh gitlab@hsbxl.be "rm /www/live; ln -sf versions/$(date +%Y.%m.%d)/public /www/live"
   artifacts:

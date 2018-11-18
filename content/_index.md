@@ -1,7 +1,6 @@
 ---
-title: "HSBXL"
-linktitle: "HSBXL"
-image: "citygate.png"
+title: "Hackerspace Brussels - HSBX s L"
+linktitle: "Hackerspace Brussels - HSBXL"
 ---
 
 ## Connect

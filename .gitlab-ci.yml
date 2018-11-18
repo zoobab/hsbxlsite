@@ -40,7 +40,7 @@ pages:
   #- source scripts/matrixlog.sh
 
 
-  - curl -XPOST -d '{"msgtype":"m.text", "body":"'"$CI_COMMIT_MESSAGE"'"}' "https://hackerspaces.be/_matrix/client/r0/rooms/!mnQLxCDhwmKozNmuIB:hackerspaces.be/send/m.room.message?access_token=$MATRIX_ACCESS_TOKEN"
+  - curl -XPOST -d '{"msgtype":"m.text", "body":"'" $CI_COMMIT_MESSAGE "'"}' "https://hackerspaces.be/_matrix/client/r0/rooms/!mnQLxCDhwmKozNmuIB:hackerspaces.be/send/m.room.message?access_token=$MATRIX_ACCESS_TOKEN"
   #- scp -r public gitlab@hsbxl.be:/srv/www/hsbxl.be/www/versions/$(date +%Y.%m.%d)/
   #- ssh gitlab@hsbxl.be "rm /www/live; ln -sf versions/$(date +%Y.%m.%d)/public /www/live"
   artifacts:

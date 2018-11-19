@@ -31,5 +31,6 @@ We have a kanboard for this project on
 
 # Questions for Citygate
 Write down all questions we have for the citygate PM
+
 - Is there already internet available?
 - can we have our own telephone / coax line for our own internet?

@@ -29,4 +29,7 @@ We visit our new spot on [Tuesday 20/11/2018 6PM](/events/techtuesday/499/).
 # /TODO
 We have a kanboard for this project on
 
-{{< iframe src="https://board.hsbxl.be/board/1" link="https://board.hsbxl.be/board/1" >}}
+# Questions for Citygate
+Write down all questions we have for the citygate PM
+- Is there already internet available?
+- can we have our own telephone / coax line for our own internet?

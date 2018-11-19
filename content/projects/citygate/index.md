@@ -28,6 +28,8 @@ We visit our new spot on [Tuesday 20/11/2018 6PM](/events/techtuesday/499/).
 # Questions for Citygate
 Write down all questions we have for the citygate PM
 
+- Can we put the address of our VZW there?
+- What with snailmail letters?
 - What is the 'préavis'? In other words, how many time do we get when they stop the contract?
 - Is there already internet available?
 - can we have our own telephone / coax line for our own internet?

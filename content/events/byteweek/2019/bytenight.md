@@ -29,13 +29,13 @@ Weird music for weird people.
 # Unsupported, deprecated versions
 - [Bytenight v2018](https://wiki.hsbxl.be/Bytenight_2018)
 - [Bytenight v2017](https://wiki.hsbxl.be/Bytenight_2017)
-- [Bytenight v2016](https://wiki.hsbxl.be/Bytenight_2016)
-- [Bytenight v2015](https://wiki.hsbxl.be/Bytenight_2015)
-- [Bytenight v2014](https://wiki.hsbxl.be/Bytenight_2014)
-- [Bytenight v2013](https://wiki.hsbxl.be/Bytenight_2013)
-- [Bytenight v2012](https://wiki.hsbxl.be/Bytenight_2012)
-- [Bytenight v2011](https://wiki.hsbxl.be/Bytenight_2011)
-- [Bytenight v2010](https://wiki.hsbxl.be/Bytenight_2010)
+- [Bytenight v2016](https://wiki.hsbxl.be/Bytenight_(2016))
+- [Bytenight v2015](https://wiki.hsbxl.be/Bytenight_(2015))
+- [Bytenight v2014](https://wiki.hsbxl.be/Bytenight_(2014))
+- [Bytenight v2013](https://wiki.hsbxl.be/Bytenight_(2013))
+- [Bytenight v2012](https://wiki.hsbxl.be/Bytenight_(2012))
+- [Bytenight v2011](https://wiki.hsbxl.be/Bytenight_(2011))
+- [Bytenight v2010](https://wiki.hsbxl.be/Bytenight_(2010))
 
 
 # Organizing

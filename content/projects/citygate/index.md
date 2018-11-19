@@ -34,7 +34,7 @@ Write down all questions we have for the citygate PM
 - Is there already internet available?
 - can we have our own telephone / coax line for our own internet?
 
-# /TODO
+# // TODO
 - Define packing/moving schedule
 - Make truck reservation
 - Uninstall water pipe at Molenbeek

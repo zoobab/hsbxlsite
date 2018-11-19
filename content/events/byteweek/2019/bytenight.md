@@ -32,10 +32,10 @@ Weird music for weird people.
 - [Bytenight v2016](https://wiki.hsbxl.be/Bytenight_(2016))
 - [Bytenight v2015](https://wiki.hsbxl.be/Bytenight_(2015))
 - [Bytenight v2014](https://wiki.hsbxl.be/Bytenight_(2014))
-- [Bytenight v2013](https://wiki.hsbxl.be/Bytenight_(2013))
-- [Bytenight v2012](https://wiki.hsbxl.be/Bytenight_(2012))
-- [Bytenight v2011](https://wiki.hsbxl.be/Bytenight_(2011))
-- [Bytenight v2010](https://wiki.hsbxl.be/Bytenight_(2010))
+- [Bytenight v2013](https://wiki.hsbxl.be/Bytenight_2013)
+- [Bytenight v2012](https://wiki.hsbxl.be/ByteNight_(2012))
+- [Bytenight v2011](https://wiki.hsbxl.be/ByteNight_(2011))
+- [Bytenight v2010](https://wiki.hsbxl.be/ByteNight_(2010))
 
 
 # Organizing

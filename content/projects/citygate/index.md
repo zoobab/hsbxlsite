@@ -25,12 +25,13 @@ HSBXL is moving to Citygate!
 # Public visit
 We visit our new spot on [Tuesday 20/11/2018 6PM](/events/techtuesday/499/).
 
+# Questions for Citygate
+Write down all questions we have for the citygate PM
+
+- What is the 'préavis'? In other words, how many time do we get when they stop the contract?
+- Is there already internet available?
+- can we have our own telephone / coax line for our own internet?
 
 # /TODO
 We have a kanboard for this project on
 
-# Questions for Citygate
-Write down all questions we have for the citygate PM
-
-- Is there already internet available?
-- can we have our own telephone / coax line for our own internet?

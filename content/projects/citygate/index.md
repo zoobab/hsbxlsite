@@ -32,8 +32,15 @@ Write down all questions we have for the citygate PM
 - What with snailmail letters?
 - What is the 'préavis'? In other words, how many time do we get when they stop the contract?
 - Is there already internet available?
-- Can we have our own telephone / coax line for our own internet?
+- can we have our own telephone / coax line for our own internet?
 
 # /TODO
-We have a kanboard for this project on
+- Define packing/moving schedule
+- Make truck reservation
+- Create cool street signs to put between south trainstation and the space, mention meters left...
+- Arrange access / copy keys
+- Fix internet
+- Setup the kitchen / the bar
+- Pickup moving truck
+- Return moving truck
 

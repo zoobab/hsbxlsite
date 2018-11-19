@@ -6,6 +6,7 @@ maintainer: "betz"
 image: "website.png"
 ---
 
+# Website? How?
 The website you're currently browsing is build with static site generator '[Hugo](https://gohugo.io/)'.  
 The Hugo generator is written in Go and uses the Markdown format for content.  
 You find the public repo of this wite on https://gitlab.com/hsbxl/site  
@@ -49,3 +50,10 @@ Just add some variables, like the ssh pubkey of your target server and you're do
 
 For the SSH user to push the build website from the Gitlab container over to our server,  
 we created a '[jailed CI user](../jailed_ci_user)'. Read the project page on how we set this up.
+
+# Questions
+List questions here. Betz will intergrate these in the documentation later on.
+
+- How to include an image?
+- How to have an image gallery?
+- How to make a redirect?

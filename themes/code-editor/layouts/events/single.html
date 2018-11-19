@@ -10,16 +10,21 @@
 
 {{ with .Params.price }}<h5 class="price">Price: {{ . }}</h5>{{ end }}
 
-{{ partial "share.html" . }}
-
 {{ partial "toc.html" . }}
 
 <article>
     {{ if isset .Params "image"}}
     <img class="content_image" src="{{ .Site.BaseURL }}images/{{ .Params.image }}">
     {{ end }}
+
+    <h1>TechTue Etherpad</h1>
+    {{ if eq .Dir "events/techtuesday/" }}
+    Pad: <a href="https://etherpad.openstack.org/p/TechTue{{ .File }}">https://etherpad.openstack.org/p/TechTue{{ .File }}</a>
+    {{ end }}
+
     {{ .Content }}
 </article>
+
 
 {{ if .IsPage }}
 <div class="editpage"></div>

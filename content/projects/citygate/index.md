@@ -21,7 +21,6 @@ HSBXL is moving to Citygate!
 - http://screen.brussels/en/film-commission/movieset/citygate
 
 
-
 # Public visit
 We visit our new spot on [Tuesday 20/11/2018 6PM](/events/techtuesday/499/).
 

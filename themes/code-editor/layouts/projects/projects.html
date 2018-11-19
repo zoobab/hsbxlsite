@@ -64,7 +64,7 @@
 </article>
 
 {{ if .IsPage }}
-[<a href="{{ .Site.Params.giteditpath }}/{{ .File.Path }}?commit_message=Update {{ .Dir }}">Edit this page</a>]
+[<a href="{{ .Site.Params.giteditpath }}/{{ .File.Path }}?commit_message=Update {{ .File.Path }}">Edit this page</a>]
 {{ end }}
 
 {{ partial "bottom.html" . }}

@@ -60,7 +60,7 @@
 
         {{ if eq .Params.series $series}}
         {{ if isset .Params "startdate" }}
-        {{ if le .Params.startdate (now.Format "2006-01-02") }}
+        {{ if lt .Params.startdate (now.Format "2006-01-02") }}
         <li><a href="{{ .Permalink }}">{{ .Params.startdate | dateFormat "Mon 2 Jan 2006"}}{{ if isset .Params "enddate" }} till {{ .Params.enddate | dateFormat "Mon 2 Jan 2006"}}{{ end }}: {{ .Params.linktitle }}</a></li>
         {{ end }}
         {{ end }}
@@ -68,7 +68,7 @@
 
         {{ else }}
         {{ if isset .Params "startdate" }}
-        {{ if le .Params.startdate (now.Format "2006-01-02") }}
+        {{ if lt .Params.startdate (now.Format "2006-01-02") }}
         <li><a href="{{ .Permalink }}">{{ .Params.startdate | dateFormat "Mon 2 Jan 2006"}}{{ if isset .Params "enddate" }} till {{ .Params.enddate | dateFormat "Mon 2 Jan 2006"}}{{ end }}: {{ .Params.linktitle }}</a></li>
         {{ end }}
         {{ end }}

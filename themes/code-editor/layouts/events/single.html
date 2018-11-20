@@ -17,8 +17,8 @@
     <img class="content_image" src="{{ .Site.BaseURL }}images/{{ .Params.image }}">
     {{ end }}
 
-    <h1>TechTue Etherpad</h1>
     {{ if eq .Dir "events/techtuesday/" }}
+    <h1>TechTue Etherpad</h1>
     Pad: <a href="https://etherpad.openstack.org/p/TechTue{{ .File }}">https://etherpad.openstack.org/p/TechTue{{ .File }}</a>
     {{ end }}
 

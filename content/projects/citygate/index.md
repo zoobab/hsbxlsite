@@ -35,7 +35,7 @@ Write down all questions we have for the citygate PM
 
 # Progress
 
-## // TODO
+- [X] Choose [moving days](/events/moving)
 - [ ] Define packing/moving schedule
 - [ ] Make truck reservation
 - [ ] Uninstall water pipe at Molenbeek
@@ -49,10 +49,6 @@ Write down all questions we have for the citygate PM
 - [ ] Setup the kitchen / the bar
 - [ ] Pickup moving truck
 - [ ] Return moving truck
-
-## // DOING
-
-## // DONE
 
 # Photos
 {{< gallery "images" >}}

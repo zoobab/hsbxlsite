@@ -10,8 +10,7 @@
 {{ range $.Site.Data.commits }}
     {{ range . }}
         <li>
-            {{ dateFormat "2006-01-02" .created_at }}: <strong><a href="https://gitlab.com/hsbxl/site/commit/{{ .id }}">{{ .message }}</a></strong>
-            ({{ .author_name}})
+            {{ dateFormat "2006-01-02" .created_at }}: <a href="https://gitlab.com/hsbxl/site/commit/{{ .id }}"><strong>{{ trim .message "\n" }}</strong></a> ({{ .author_name}})
         </li>
     {{ end }}
 {{ end }}

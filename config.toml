@@ -15,7 +15,7 @@ sectionPagesMenu = "main"
 
 [params]
     alert_text = "ALERT! We are moving. Our new spot, better then ever!"
-    alert_link = "https://hsbxl.be/projects/citygate/"
+    alert_link = "/projects/citygate/"
     giteditpath = "https://gitlab.com/hsbxl/site/edit/master/content"
 
 	name = "Your name"

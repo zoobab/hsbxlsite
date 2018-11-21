@@ -7,7 +7,7 @@ eventtype: "Workshop"
 
 title: "Moving Weekend day 1"
 linktitle: "Moving Weekend day 1"
-image: "Studioonboard.jpg"
+image: "mudanza.jpg"
 
 location: "HSBXL"
 price: "free"

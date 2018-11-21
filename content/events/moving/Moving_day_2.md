@@ -32,7 +32,7 @@ we will move the weekend dec 15-16, packing 14the evening
 
 
 
-== general thoughts.. ==
+# general thoughts..
 
 - get club mate and tables done first (they move easy and free up space to move the other things around) 
 - member storage should also go soon (since it makes moving thru the door difficult) 

@@ -5,8 +5,8 @@ starttime: "10h"
 type: events
 eventtype: "Workshop"
 
-title: "Moving Weekend day 1"
-linktitle: "Moving Weekend day 1"
+title: "Moving Weekend day 2"
+linktitle: "Moving Weekend day 2"
 image: "mudanza.jpg"
 
 location: "HSBXL"

@@ -33,7 +33,7 @@ pages:
   script:
   #- apk update
   #- apk add hugo
-  - curl --header 'PRIVATE-TOKEN: $GITLAB_API_KEY' 'https://gitlab.com/api/v4/projects/hsbxl%2Fsite/repository/commits' > 'data/commits/commits.json'
+  #- curl --header 'PRIVATE-TOKEN: $GITLAB_API_KEY' 'https://gitlab.com/api/v4/projects/hsbxl%2Fsite/repository/commits' > 'data/commits/commits.json'
   - hugo version
   - hugo
   - echo $(date +%Y.%m.%d)

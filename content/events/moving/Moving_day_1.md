@@ -11,7 +11,7 @@ image: "mudanza.jpg"
 
 location: "HSBXL"
 price: ""
-series: Moving
+series: moving
 ---
 
 

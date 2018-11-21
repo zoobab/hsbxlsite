@@ -33,18 +33,26 @@ Write down all questions we have for the citygate PM
 - Is there already internet available?
 - can we have our own telephone / coax line for our own internet?
 
-# // TODO
-- Define packing/moving schedule
-- Make truck reservation
-- Uninstall water pipe at Molenbeek
-- Uninstall heaters
-- Uninstall TV's & other stuff hanging on the walls
-- Make all desks ready to move
-- Uninstall electronics lab
-- Create cool street signs to put between south trainstation and the space, mention meters left...
-- Arrange access / copy keys
-- Fix internet
-- Setup the kitchen / the bar
-- Pickup moving truck
-- Return moving truck
+# Progress
 
+## // TODO
+- [ ] Define packing/moving schedule
+- [ ] Make truck reservation
+- [ ] Uninstall water pipe at Molenbeek
+- [ ] Uninstall heaters
+- [ ] Uninstall TV's & other stuff hanging on the walls
+- [ ] Make all desks ready to move
+- [ ] Uninstall electronics lab
+- [ ] Create cool street signs to put between south trainstation and the space, mention meters left...
+- [ ] Arrange access / copy keys
+- [ ] Fix internet
+- [ ] Setup the kitchen / the bar
+- [ ] Pickup moving truck
+- [ ] Return moving truck
+
+## // DOING
+
+## // DONE
+
+# Photos
+{{< gallery "images" >}}

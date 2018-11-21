@@ -20,13 +20,13 @@ We need to get all our tools and infrastructure from the old space to the new sp
 we will move the weekend dec 15-16, packing 14the evening 
 
 who is available 
-* wouter (15 before lunch, 16 all day) 
-*Mowzes (14 evening  - 16 all afternoon-evening)
+* wouter (15 all day, 16 Before lunch) 
+* Mowzes (14 evening  - 16 all afternoon-evening)
 * you ? 
 
 who will do what  ?
-* askarell with get a van with a loading ramp for the weekend (15& 16)
-*Mowzes whatever is needed of him  on the 16th ( in direct command of Wouter)
+* Askarel with get a van with a loading ramp for the weekend (15& 16)
+* Mowzes whatever is needed of him  on the 16th ( in direct command of Wouter)
 
 
 

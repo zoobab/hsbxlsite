@@ -31,13 +31,12 @@ pages:
     CI_COMMIT_MESSAGE: $CI_COMMIT_MESSAGE
     MESSAGE: $CI_COMMIT_MESSAGE
   script:
-  #- apk update
-  #- apk add hugo
-  - hugo version
-  - hugo
-  - echo $(date +%Y.%m.%d)
-  - tar cz public | ssh gitlab@hsbxl.be "mkdir -p /www/versions/$(date +%Y.%m.%d); cd /www/versions/$(date +%Y.%m.%d); tar xz; rm /www/live; ln -sf versions/$(date +%Y.%m.%d)/public /www/live"
-  #- source scripts/matrixlog.sh
+    - curl --header "PRIVATE-TOKEN: $GITLAB_API_KEY" "https://gitlab.com/api/v4/projects/hsbxl%2Fsite/repository/commits" > data/commits/commits.json
+    - hugo version
+    - hugo
+    - echo $(date +%Y.%m.%d)
+    - tar cz public | ssh gitlab@hsbxl.be "mkdir -p /www/versions/$(date +%Y.%m.%d); cd /www/versions/$(date +%Y.%m.%d); tar xz; rm /www/live; ln -sf versions/$(date +%Y.%m.%d)/public /www/live"
+    #- source scripts/matrixlog.sh
 
 
   - curl -XPOST -d '{"msgtype":"m.text", "body":"Site updated."}' "https://hackerspaces.be/_matrix/client/r0/rooms/!mnQLxCDhwmKozNmuIB:hackerspaces.be/send/m.room.message?access_token=$MATRIX_ACCESS_TOKEN"

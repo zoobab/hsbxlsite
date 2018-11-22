@@ -9,6 +9,10 @@ HSBXL is moving to Citygate!
 
 # Our contract
 
+[Current version of our contract](contracts/contract-v1.pdf).  
+**Unsigned!** We are discussing for changes.
+
+
 - Contract for 3 years
 - Warranty is 2 months
 - Setup fee of 250€ by Entrakt

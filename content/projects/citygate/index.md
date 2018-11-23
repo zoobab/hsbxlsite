@@ -9,7 +9,7 @@ HSBXL is moving to Citygate!
 
 # Our contract
 
-[Current version of our contract](contracts/contract-v1.pdf).  
+[Current version of our contract](contracts/contract-v2.pdf).  
 **Unsigned!** We are discussing for changes.
 
 

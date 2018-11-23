@@ -49,7 +49,9 @@ Write down all questions we have for the citygate PM
 - [ ] Uninstall electronics lab
 - [ ] Create cool street signs to put between south trainstation and the space, mention meters left...
 - [ ] Arrange access / copy keys
-- [ ] Fix internet
+- [ ] Install Wireless België
+- [ ] Install internet / wifi
+- [ ] Uninstall Wireless België @ Molenbeek
 - [ ] Pickup moving truck
 - [ ] Return moving truck
 - [ ] Setup the kitchen / the bar

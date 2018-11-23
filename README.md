@@ -19,6 +19,14 @@ https://gohugo.io/
 
 ## Instructions: add page features
 
+### Show an event list (on a project/event page)
+
+~~~
+{{< events series="moving" >}}
+~~~
+This shows a list of events with 'series' set as 'foobar'  
+On and event page, you can add 'series: foobar' on the top to define this as a event of series 'foobar'.
+
 ### Add an image gallery
 - Create a folder in your event/project directory.
 - Put images in the newly created directory.

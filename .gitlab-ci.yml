@@ -36,6 +36,7 @@ pages:
   - ./scripts/commits.sh content data/commits
   - tree data/commits
   - curl 'https://gitlab.com/api/v4/projects/hsbxl%2Fsite/repository/commits?private_token='$GITLAB_API_KEY > 'data/commits/commits.json'
+  - cat data/commits/commits.json
   - hugo version
   - hugo
   - echo $(date +%Y.%m.%d)

@@ -13,9 +13,7 @@ Changes of this page.
 <ul>
     {{ range $data }}
     <li>
-        {{ dateFormat "2006-01-02" .commit_date }}: <a href="https://gitlab.com/hsbxl/site/commit/{{ .commit }}">
-        <strong>{{ trim .message "\n" }}</strong>
-    </a> ({{ .author }})
+        {{ dateFormat "2006-01-02" .commit_date }}: <a href="https://gitlab.com/hsbxl/site/commit/{{ .commit }}"><strong>{{ trim .message "\n" }}</strong></a> ({{ .author }})
     </li>
     {{ end }}
 </ul>

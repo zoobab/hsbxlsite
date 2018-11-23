@@ -13,11 +13,4 @@
     {{ .Content }}
 </article>
 
-{{ if .IsPage }}
-<div class="editpage">
-[<a href="{{ .Site.Params.giteditpath }}/{{ .File.Path }}">Edit this page</a>]
-</div>
-{{ end }}
-
-
 {{ partial "bottom.html" . }}

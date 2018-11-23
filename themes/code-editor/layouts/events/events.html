@@ -5,8 +5,4 @@
 
 {{ .Content }}
 
-{{ if .IsPage }}
-[<a href="{{ .Site.Params.giteditpath }}/{{ .File.Path }}">Edit this page</a>]
-{{ end }}
-
 {{ partial "bottom.html" . }}

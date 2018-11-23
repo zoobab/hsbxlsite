@@ -17,11 +17,5 @@
 
 <div class="pad">Public pad: <a href="https://etherpad.openstack.org/p/techtuesday{{.File.BaseFileName}}">https://etherpad.openstack.org/p/techtuesday{{.File.BaseFileName}}</a> </div>
 
-{{ if .IsPage }}
-<div class="editpage">
-<a href="{{ .Site.Params.giteditpath }}/{{ .File.Path }}">[Edit this page]</a>
-</div>
-{{ end }}
-
 
 {{ partial "bottom.html" . }}

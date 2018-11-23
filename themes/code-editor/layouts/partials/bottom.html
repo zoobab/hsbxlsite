@@ -1,5 +1,36 @@
+<h1>Changelog</h1>
+Changes of this page.
+{{ $currentPage := . }}
+{{ $jsonFile := "" }}
+{{ $currentPagemd5 := md5 $currentPage.File.Path }}
+{{ $currentPagemd5ext := (print $currentPagemd5 ".json")}}
+{{ $files := readDir "data/commits/" }}
+
+{{ range $files }}
+{{ if eq .Name $currentPagemd5ext }}
+{{ $jsonFile := $currentPagemd5 }}
+{{ $data := index $.Site.Data.commits $jsonFile }}
+<ul>
+    {{ range $data }}
+    <li>
+        {{ dateFormat "2006-01-02" .commit_date }}: <a href="https://gitlab.com/hsbxl/site/commit/{{ .commit }}">
+        <strong>{{ trim .message "\n" }}</strong>
+    </a> ({{ .author }})
+    </li>
+    {{ end }}
+</ul>
+{{ end }}
+{{ end }}
+
+
+<div class="editpage">
+    [<a href="{{ .Site.Params.giteditpath }}/{{ .File.Path }}">Edit this page</a>]
+</div>
+
+
 </div>
 </div>
+
 {{ partial "footer.html" . }}
 </body>
 </html>

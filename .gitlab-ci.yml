@@ -34,7 +34,7 @@ pages:
   #- apk update
   #- apk add hugo
   - ./scripts/commits.sh content data/commits
-  - curl 'https://gitlab.com/api/v4/projects/hsbxl%2Fsite/repository/commits?private_token='$GITLAB_API_KEY > 'data/commits/changelog.json'
+  - curl 'https://gitlab.com/api/v4/projects/hsbxl%2Fsite/repository/commits?private_token='$GITLAB_API_KEY > 'data/changelog/changelog.json'
   - hugo version
   - hugo
   - echo $(date +%Y.%m.%d)

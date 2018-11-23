@@ -22,7 +22,7 @@ https://gohugo.io/
 ### Show an event list (on a project/event page)
 
 ~~~
-{{< events series="moving" >}}
+{{< events series="foobar" >}}
 ~~~
 This shows a list of events with 'series' set as 'foobar'  
 On and event page, you can add 'series: foobar' on the top to define this as a event of series 'foobar'.

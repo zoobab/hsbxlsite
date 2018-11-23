@@ -56,5 +56,9 @@ Write down all questions we have for the citygate PM
 - [ ] Install 'elevator box' @ Citygate
 - [ ] Install '[black knight](/projects/black_knight)' @ Citygate
 
+# Moving related events
+{{< events series="moving" >}}
+
 # Photos
 {{< gallery "images" >}}
+

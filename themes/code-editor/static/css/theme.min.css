@@ -37,10 +37,12 @@ article img {
     background-color: #07D0FF; /* Red */
     color: #000;
     margin: 15px 0;
+    font-weight: 800;
 }
 
 .alert a {
     color: #000;
+    font-weight: 800;
 }
 
 /* The close button */

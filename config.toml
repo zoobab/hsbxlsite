@@ -14,8 +14,13 @@ sectionPagesMenu = "main"
 
 
 [params]
-    alert_text = "ALERT! We are moving. Our new spot, better then ever!"
-    alert_link = "/projects/citygate/"
+
+
+    alert_text = "> This Tuesday: TechTuesday 500! Let's BBQ and make GNUwhine!"
+    alert_link = "/events/techtuesday/500/"
+
+
+
     giteditpath = "https://gitlab.com/hsbxl/site/edit/master/content"
 
 	name = "Your name"

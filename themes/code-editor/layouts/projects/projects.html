@@ -5,10 +5,6 @@
 
 {{ with .Params.price }}<h5 class="price">Price: {{ . }}</h5>{{ end }}
 
-{{ partial "share.html" . }}
-
-<img src="{{ .Site.BaseURL }}images/progressbar.png" style="max-width:400px">
-
 <article>
     {{ if isset .Params "image"}}
     <img class="content_image" src="{{ .Site.BaseURL }}images/{{ .Params.image }}">

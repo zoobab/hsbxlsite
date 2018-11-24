@@ -123,3 +123,7 @@ h5 {
 .content_image {
     margin: 20px 0;
 }
+
+.accordion .header {
+    cursor: pointer;
+}

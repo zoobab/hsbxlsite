@@ -1,24 +1,36 @@
-<h1>Changelog</h1>
-Changes of this page.
-{{ $currentPage := . }}
-{{ $jsonFile := "" }}
-{{ $currentPagemd5 := md5 $currentPage.File.Path }}
-{{ $currentPagemd5ext := (print $currentPagemd5 ".json")}}
-{{ $files := readDir "data/commits/" }}
+<div class="accordion">
 
-{{ range $files }}
-{{ if eq .Name $currentPagemd5ext }}
-{{ $jsonFile := $currentPagemd5 }}
-{{ $data := index $.Site.Data.commits $jsonFile }}
-<ul>
-    {{ range $data }}
-    <li>
-        {{ dateFormat "2006-01-02" .commit_date }}: <a href="https://gitlab.com/hsbxl/site/commit/{{ .commit }}"><strong>{{ trim .message "\n" }}</strong></a> ({{ .author }})
-    </li>
+    <h2 class="header">Resources 📂</h2>
+    <ul>
+        {{ range .Resources }}
+            <li><a href="{{ .Permalink }}">{{ .Name }}</a></li>
+        {{ end }}
+    </ul>
+
+
+    <h2 class="header">Changelog 📖</h2>
+    {{ $currentPage := . }}
+    {{ $jsonFile := "" }}
+    {{ $currentPagemd5 := md5 $currentPage.File.Path }}
+    {{ $currentPagemd5ext := (print $currentPagemd5 ".json")}}
+    {{ $files := readDir "data/commits/" }}
+
+    {{ range $files }}
+        {{ if eq .Name $currentPagemd5ext }}
+            {{ $jsonFile := $currentPagemd5 }}
+            {{ $data := index $.Site.Data.commits $jsonFile }}
+            <ul>
+                {{ range $data }}
+                    <li>
+                        {{ dateFormat "2006-01-02" .commit_date }}: <a href="https://gitlab.com/hsbxl/site/commit/{{ .commit }}"><strong>{{ trim .message "\n" }}</strong></a> ({{ .author }})
+                    </li>
+                {{ end }}
+            </ul>
+        {{ end }}
     {{ end }}
-</ul>
-{{ end }}
-{{ end }}
+
+</div>
+
 
 
 <div class="editpage">
@@ -27,10 +39,12 @@ Changes of this page.
 
 
 <div id="chatbox" style="width: 120px;position: fixed;bottom: 0;right: 0;padding: 0 0 0 10px;background: black;">
-<h1 style="text-align: right;padding: 0 10px 5px;">CHAT→</h1>
-    <a href="https://ptt.hackerspaces.be/#/room/#hsbxl:hackerspaces.be">
-        <img src="/images/chat.png" style="max-width: 100%;" />
-    </a>
+    <h3 style="text-align: right;padding: 0 10px 5px;">CHAT→</h3>
+    <div>
+        <a href="https://ptt.hackerspaces.be/#/room/#hsbxl:hackerspaces.be">
+            <img src="/images/chat.png" style="max-width: 100%;" />
+        </a>
+    </div>
 </div>
 
 </divclass>

@@ -2,7 +2,7 @@
 
 # Usage: ./scripts/commits.sh content data/commits
 
-echo "generating git logs"
+echo "generating git logs of each *.md file for changelogs."
 
 mkdir -p $2
 

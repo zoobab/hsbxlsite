@@ -124,6 +124,7 @@ h5 {
 
 .content_image {
     margin: 20px 0;
+    max-height: 250px;
 }
 
 .accordion .header {

@@ -1,5 +1,5 @@
 ---
-title: "Hackerspace Brussels - HSBX s L"
+title: "Hackerspace Brussels - HSBXL"
 linktitle: "Hackerspace Brussels - HSBXL"
 ---
 

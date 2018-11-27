@@ -16,8 +16,8 @@ sectionPagesMenu = "main"
 [params]
 
 
-    alert_text = "> This Tuesday: TechTuesday 500! Let's BBQ and make GNUwhine!"
-    alert_link = "/events/techtuesday/500/"
+    alert_text = "> TODAY: TechTuesday 500! Let's BBQ and make GNUwhine!"
+    alert_link = "/events/techtuesday/500"
 
 
 

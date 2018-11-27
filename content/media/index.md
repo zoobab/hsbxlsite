@@ -11,6 +11,9 @@ linktitle: "HSBXL in the media"
   - or a copy on youtube https://www.youtube.com/watch?v=7zMM5pNo1rc
 - http://www.makery.info/en/2014/11/04/une-semaine-dopen-lab-a-bruxelles/
 
+# 2013
+- https://hackaday.com/2013/10/23/hackerspacing-in-europe-hsbxl-in-brussels/
+
 # 2012
 - [Brussel deze week - newspaper in Dutch](images/Brussel-deze-week-hsbxl-20120606.png)
   - or as PDF with HSBXL also on the front page! [HSBXL_in_BDW1332_on_2012-06-07.pdf](docs/HSBXL_in_BDW1332_on_2012-06-07.pdf)

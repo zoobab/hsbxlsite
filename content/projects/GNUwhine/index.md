@@ -5,7 +5,7 @@ state: archived
 image: "gnuwhine.png"
 ---
 
-# Ingredients
+# Ingredients AKA 'the source'
 for 10 liter HSBXL GNUwhine
 
 - 7L red wine

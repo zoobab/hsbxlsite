@@ -18,5 +18,6 @@ for 10 liter HSBXL GNUwhine
 - clove
 
 # Instructions
-https://www.youtube.com/watch?v=wxXm-0yFLeg
-https://www.youtube.com/watch?v=XjSPgmZ_mx0
+
+- https://www.youtube.com/watch?v=wxXm-0yFLeg
+- https://www.youtube.com/watch?v=XjSPgmZ_mx0

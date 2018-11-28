@@ -18,7 +18,7 @@
     {{ $currentPagemd5ext := (print $currentPagemd5 ".json")}}
     {{ $files := readDir "data/commits/" }}
     {{if gt (len $files ) 0}}
-    <h2 class="header">Changelog 📖</h2>
+    <h2 class="header">&#709; Page changelog 📖</h2>
     <div>
         {{ range $files }}
             {{ if eq .Name $currentPagemd5ext }}

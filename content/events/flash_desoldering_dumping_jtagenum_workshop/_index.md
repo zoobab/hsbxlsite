@@ -63,3 +63,4 @@ Links
 
 * Flash dumping: https://github.com/cyphunk/JTAGenum/wiki/Embedded-Analysis#flash-dumping
 * JTAGenum: https://github.com/cyphunk/JTAGenum
+* Nathan Fain (cyphunk): https://deadhacker.com/

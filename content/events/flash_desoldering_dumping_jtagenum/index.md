@@ -2,7 +2,7 @@
 startdate:  2018-12-08
 starttime: "14h"
 endtime: "23h"
-linktitle: "Flash desoldering, dumping and JTAGenum workshop"
+linktitle: "Flash desoldering, dumping and JTAGenum"
 title: "Flash desoldering, dumping and JTAGenum workshop"
 location: "HSBXL"
 eventtype: "hardware and software workshop"

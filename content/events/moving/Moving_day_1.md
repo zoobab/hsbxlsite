@@ -6,7 +6,7 @@ type: events
 eventtype: ""
 
 title: "Moving Weekend day 1"
-linktitle: "Moving Weekend day 1"
+linktitle: "Moving day 1"
 image: "mudanza.jpg"
 
 location: "HSBXL"

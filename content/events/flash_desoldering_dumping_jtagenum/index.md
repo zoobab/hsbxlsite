@@ -65,7 +65,7 @@ Our master will be Nathan Fain (cyphunk), a researcher based in Berlin and contr
 Register
 ========
 
-Please register your participation to this workshop on Meetup.com.
+Please register your participation to this workshop on Meetup.com: https://www.meetup.com/hackerspace-Brussels-hsbxl/events/256814991
 
 Links
 =====

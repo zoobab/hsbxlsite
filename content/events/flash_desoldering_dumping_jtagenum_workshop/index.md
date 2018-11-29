@@ -1,7 +1,7 @@
 ---
 startdate:  2018-12-08
 starttime: "14h"
-#endtime: "20h"
+endtime: "23h"
 linktitle: "Flash desoldering, dumping and JTAGenum workshop"
 title: "Flash desoldering, dumping and JTAGenum workshop"
 location: "HSBXL"
@@ -23,6 +23,11 @@ Bring a target device and we will teach other how to remove TSOP chips, reball B
 We will bring an IR rework station and all the TSOP/BGA breakout boards we have around.
 
 We will also try JTAGenum to find hidden JTAG pins on devices.
+
+When?
+=====
+
+Saturday 2018-12-08, from 2PM to 11PM @HSBXL
 
 Examples
 ========

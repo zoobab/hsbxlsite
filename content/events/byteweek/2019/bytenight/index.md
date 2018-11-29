@@ -21,7 +21,6 @@ As an after-party to the big FOSDEM Free Software conference in Brussels, the ol
 # Music line up
 Weird music for weird people.
 
-* Jo 'dJc' Clarysse
 * CIRC8
 * Jonny and the bomb
 * Open impro table in the back

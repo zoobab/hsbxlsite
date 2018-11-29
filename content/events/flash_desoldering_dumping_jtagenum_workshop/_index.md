@@ -28,6 +28,8 @@ We will also try JTAGenum to find hidden JTAG pins on devices.
 Examples
 ========
 
+![TSOP desolder USB key](https://raw.githubusercontent.com/wiki/cyphunk/JTAGenum/images/tsop_desolder.png)
+
 ![Flash dump example](https://raw.githubusercontent.com/wiki/cyphunk/JTAGenum/images/flash_dump_example.jpg)
 
 Requirements

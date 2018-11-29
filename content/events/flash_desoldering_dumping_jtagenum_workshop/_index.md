@@ -1,12 +1,4 @@
 ---
-linktitle: "Flash desoldering, dumping and JTAGenum workshop"
-title: "Flash desoldering, dumping and JTAGenum workshop"
-location: "HSBXL"
-eventtype: "hardware and software"
-price: "Free"
-image: "flash-desoldering.jpg"
----
----
 startdate:  2018-12-08
 enddate: 2018-12-08
 #starttime: "14h"
@@ -16,7 +8,7 @@ title: "Flash desoldering, dumping and JTAGenum workshop"
 location: "HSBXL"
 eventtype: "hardware and software"
 price: "Free"
-image: "flashdump.jpg"
+image: "https://raw.githubusercontent.com/wiki/cyphunk/JTAGenum/images/flash_dump_example.jpg"
 ---
 
 Goals
@@ -36,12 +28,7 @@ We will also try JTAGenum to find hidden JTAG pins on devices.
 Examples
 ========
 
-Read more about flash dumping:
-
-https://github.com/cyphunk/JTAGenum/wiki/Embedded-Analysis#flash-dumping
-
-https://raw.githubusercontent.com/wiki/cyphunk/JTAGenum/images/flash_dump_example.jpg
-
+![Flash dump example](https://raw.githubusercontent.com/wiki/cyphunk/JTAGenum/images/flash_dump_example.jpg)
 
 Requirements
 ============

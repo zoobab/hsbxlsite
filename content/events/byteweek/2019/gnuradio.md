@@ -12,4 +12,9 @@ series: "bitday2019"
 image: "gnuradio.png"
 --- 
 
-Lorem ipsum
+Hacking on the GNU Radio codebase & related project wil lhappen.
+A casual hands-on tutorial/workshop about Software Defined Radio and 
+Wireless Hacking will take place on one of the days.
+
+More information, like topics and attendees:
+https://wiki.gnuradio.org/index.php/Hackfest1902

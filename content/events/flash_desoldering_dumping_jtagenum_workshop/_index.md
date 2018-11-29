@@ -58,6 +58,11 @@ Lead
 
 Our master will be Nathan Fain (cyphunk), a researcher based in Berlin and contributor to embedded tools such as JTAGenum.
 
+Register
+========
+
+Please register your participation to this workshop on Meetup.com.
+
 Links
 =====
 

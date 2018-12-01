@@ -11,6 +11,8 @@ sectionPagesMenu = "main"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS", "JSON"]
+
 
 
 [params]

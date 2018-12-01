@@ -22,6 +22,11 @@
     Pad: <a href="https://etherpad.openstack.org/p/TechTue{{ .File }}">https://etherpad.openstack.org/p/TechTue{{ .File }}</a>
     {{ end }}
 
+    {{ if eq .Dir "events/coremeeting/" }}
+    <h1>Coremeeting Etherpad</h1>
+    Pad: <a href="https://etherpad.openstack.org/p/coremeeting-{{ .File }}">https://etherpad.openstack.org/p/coremeeting-{{ .File }}</a>
+    {{ end }}
+
     {{ .Content }}
 </article>
 

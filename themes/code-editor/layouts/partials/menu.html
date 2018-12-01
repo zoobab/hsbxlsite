@@ -5,7 +5,7 @@
     <h3 class="home-link"><a href="{{ index .Site.Params "rootlink" | default .Site.BaseURL }}">{{ ( index $.Site.Data.translations (default $.Site.Params.locale "en-US") ).root }}</a></h3>
     </div>
 
-    <div id="last-posts" class="open">
+    <div id="last-posts" class="">
         <h3 data-open="last-posts">Welcome</h3>
         <ul>
             <li><a href="{{ .Site.BaseURL }}events">Events</a></li>
@@ -13,7 +13,7 @@
             <li><a href="{{ .Site.BaseURL }}search">Search</a></li>
             <li><a href="{{ .Site.BaseURL }}contact">Get in contact</a></li>
             <li><a href="{{ .Site.BaseURL }}mailinglist">Mailing lists</a></li>
-            <li><a href="{{ .Site.BaseURL }}media">HSBXL in the media</a></li>
+            <li><a href="{{ .Site.BaseURL }}mentions">HSBXL mentions</a></li>
             <li><a href="https://pam.hsbxl.be/">Who is in the space?</a></li>
             <li><a href="https://wiki.hsbxl.be">Archived wiki</a></li>
             <li><a href="https://ptt.hackerspaces.be/#/room/#hsbxl:hackerspaces.be">Chat (Matrix)</a></li>
@@ -22,14 +22,19 @@
         </ul>
     </div>
 
-    <div id="last-posts" class="open">
+    <div id="last-posts" class="open events">
         <h3 data-open="last-posts">Agenda</h3>
         <ul>
             {{ range $.Site.RegularPages.ByParam "startdate" }}
                 {{ if eq .Type "events" }}
                     {{ if isset .Params "startdate" }}
                         {{ if ge .Params.startdate (now.Format "2006-01-02") }}
-                        <li><a href="{{ .Permalink }}">{{ .Params.startdate | dateFormat "Mon 2 Jan"}}: {{ .Params.linktitle }}</a></li>
+            <li class="row">
+                <a href="{{ .Permalink }}" style="box-sizing: border-box;">
+                    <div class="date col-md-5" style="text-align: right; margin:0; padding:0 10px 0 0; font-weight: 800">{{ .Params.startdate | dateFormat "Mon 02 Jan"}}:</div>
+                    <div class="col-md-7" style="padding: 0 5px; color: #839496; background-color: #000">{{ .Params.linktitle }}</div>
+                </a>
+            </li>
                         {{ end }}
                     {{ end }}
                 {{ end }}
@@ -37,7 +42,7 @@
         </ul>
     </div>
 
-    <div id="last-posts" class="open">
+    <div id="last-posts" class="open techtuesdays">
         <h3 data-open="last-posts">TechTuesdays</h3>
         <ul>
             <li>Every Tuesday is TechTuesday, an open evening for both members and visitors.</li>

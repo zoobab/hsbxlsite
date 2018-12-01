@@ -1,18 +1,28 @@
 ---
-title: "HSBXL in the media"
-linktitle: "HSBXL in the media"
+title: "HSBXL mentions"
+linktitle: "HSBXL mentions"
 ---
+
+An colection of 'HSBXL mentions' on media and other websites.
+
 
 # 2018
 - https://www.bewustverbruiken.be/artikel/gedeelde-werkruimtes-een-overzicht
 
+# 2017
+- https://www.datapanik.org/events/software-freedom-day-hsbxl
+
+# 2015
+- http://www.fablab-brussels.be/fablab/feestelijke-opening-hsbxl
+
 # 2014
 - http://deredactie.be/cm/vrtnieuws/videozone/programmas/terzake/2.36763?video=1.2178027
   - or a copy on youtube https://www.youtube.com/watch?v=7zMM5pNo1rc
-- http://www.makery.info/en/2014/11/04/une-semaine-dopen-lab-a-bruxelles/
+- http://www.makery.info/en/2014/11/04/une-semaine-dopen-lab-a-bruxelles
 
 # 2013
-- https://hackaday.com/2013/10/23/hackerspacing-in-europe-hsbxl-in-brussels/
+- https://hackaday.com/2013/10/23/hackerspacing-in-europe-hsbxl-in-brussels
+- http://fabelier.org/hello-world-from-hsbxl-hackerspace-in-brussels
 
 # 2012
 - [Brussel deze week - newspaper in Dutch](images/Brussel-deze-week-hsbxl-20120606.png)
@@ -21,6 +31,9 @@ linktitle: "HSBXL in the media"
 - http://www.aljazeera.net/news/pages/e5d2a2ee-6db9-4242-bb96-bcdc1dabb64c
   - or in [Google English](http://translate.google.com/translate?sl=ar&tl=en&js=n&prev=_t&hl=en&ie=UTF-8&layout=2&eotf=1&u=http%3A%2F%2Fwww.aljazeera.net%2Fnews%2Fpages%2Fe5d2a2ee-6db9-4242-bb96-bcdc1dabb64c%3FGoogleStatID%3D21)
 - [a newspaper article in French](docs/Lesoir_20120427_hsbxl_150.png)
+
+# 2011
+- http://wiki.p2pfoundation.net/HSBxl
 
 # 2009
 - Dorkbot BXL talk

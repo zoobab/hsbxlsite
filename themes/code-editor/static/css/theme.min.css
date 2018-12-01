@@ -130,3 +130,16 @@ h5 {
 .accordion .header {
     cursor: pointer;
 }
+
+
+.menu nav .events ul li:before {
+    content: "";
+    margin-right: 0;
+}
+
+@media only screen and (max-width: 992px) {
+    .menu nav .events,
+    .menu nav .techtuesdays {
+        display: none;
+    }
+}

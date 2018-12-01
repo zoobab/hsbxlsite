@@ -18,3 +18,7 @@ Found the very first TechTuesday, which was on Apr 7th, 2009: http://hsb.wikidot
 - Stefan will get some meat/vegetables/bread for people
   - if you want him to bring something, contact him or ask the mailing list
 - We are also making tons of fresh [GNUwhine](/projects/gnuwhine) for this year! :)
+
+
+# Pictures
+{{< gallery >}}

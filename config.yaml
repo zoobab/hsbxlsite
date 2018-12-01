@@ -1,0 +1,28 @@
+baseurl: "https://hsbxl.be"
+title: "Hackerspace Brussels (HSBXL)"
+
+theme: "code-editor"
+languageCode: "en-us"
+
+params:
+
+  # Alert box on top of each page
+  alert_text: "Call for participation is open for Byteweek!"
+  alert_link: "/events/byteweek/2019/"
+
+  # URL that should be the base of the 'edit this page' link
+  giteditpath: "https://gitlab.com/hsbxl/site/edit/master/content"
+
+outputFormats:
+  hackeragenda:
+    mediaType: "application/json"
+    baseName: "hackeragenda"
+    isPlainText: true
+
+outputs:
+  home:
+  - "html"
+  - "rss"
+  - "hackeragenda"
+  page:
+  - "html"

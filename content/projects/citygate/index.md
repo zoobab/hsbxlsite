@@ -40,6 +40,7 @@ Write down all questions we have for the citygate PM
 # Progress
 
 - [X] Choose [moving days](/events/moving)
+- [X] Remove floor
 - [ ] Make truck reservation
 - [ ] Uninstall elevator box @ Molenbeek
 - [ ] Uninstall water pipe at @ Molenbeek

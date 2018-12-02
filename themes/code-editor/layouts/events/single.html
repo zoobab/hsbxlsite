@@ -10,6 +10,11 @@
 
 {{ with .Params.price }}<h5 class="price">Price: {{ . }}</h5>{{ end }}
 
+{{ with  .OutputFormats.Get "calendar" -}}
+<a href="{{ .Permalink | safeURL }}">Add this event to your calendar.</a>
+{{- end }}
+
+
 {{ partial "toc.html" . }}
 
 <article>
@@ -29,10 +34,6 @@
 
     {{ .Content }}
 </article>
-
-{{ with  .OutputFormats.Get "calendar" -}}
-    <a href="{{ .Permalink | safeURL }}">Add this event to your calendar.</a>
-{{- end }}
 
 
 {{ partial "bottom.html" . }}

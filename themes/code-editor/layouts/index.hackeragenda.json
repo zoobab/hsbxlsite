@@ -1,0 +1,23 @@
+{{ $.Scratch.Set "counter" 0 }}{
+  "title": "{{ .Site.Title }}",
+  "api": 2.0,
+  "home_page_url": "{{ .Permalink }}",
+  "feed_url": "{{ .Permalink }}hackeragenda.json",
+  "events": [ {{ range $index, $item := .Data.Pages.ByParam "startdate" }}{{ if eq .Type "events" }}{{ if isset .Params "startdate" }}{{ if ge .Params.startdate (now.Format "2006-01-02") }}
+
+{{$counter := $.Scratch.Get "counter"}}{{ if gt $counter 0}},{{end}}
+{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+
+    {
+      "title": "{{ .Title }}",
+      "url": "{{ if isset .Params "redirect" }}{{ .Params.redirect }}{{ else }}{{ .Permalink }}{{ end }}",
+      "start": "{{ .Params.startdate }}",
+      {{ if isset .Params "enddate" }}"end": "{{ .Params.enddate }}",{{end}}
+      "all_day": false
+    }
+
+
+    {{ end }}{{end}}{{end}}{{ end }}
+
+  ]
+}

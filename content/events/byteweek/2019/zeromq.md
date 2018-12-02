@@ -7,6 +7,7 @@ location: "HSBXL"
 eventtype: "Hackaton"
 price: "Free"
 series: "bitday2019"
+allday: true
 --- 
 
 See http://zeromq.org/event:zeromq-pre-fosdem-hackaton-thu-31-jan-fri-1-feb-2019

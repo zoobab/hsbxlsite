@@ -1,6 +1,6 @@
 ---
 startdate:  2019-01-31
-starttime: "14h"
+starttime: "14:00"
 linktitle: "Amateur radio for hackers"
 title: "Amateur radio for hackers"
 location: "HSBXL"

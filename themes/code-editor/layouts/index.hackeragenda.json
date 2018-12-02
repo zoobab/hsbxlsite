@@ -1,6 +1,6 @@
 {{ $.Scratch.Set "counter" 0 }}{
   "title": "{{ .Site.Title }}",
-  "api": 2.0,
+  "api": "2.0",
   "home_page_url": "{{ .Permalink }}",
   "feed_url": "{{ .Permalink }}hackeragenda.json",
   "events": [ {{ range $index, $item := .Data.Pages.ByParam "startdate" }}{{ if eq .Type "events" }}{{ if isset .Params "startdate" }}{{ if ge .Params.startdate (now.Format "2006-01-02") }}
@@ -11,11 +11,11 @@
     {
       "title": "{{ .Title }}",
       "url": "{{ if isset .Params "redirect" }}{{ .Params.redirect }}{{ else }}{{ .Permalink }}{{ end }}",
-      "start": "{{ .Params.startdate }}",
-      {{ if isset .Params "enddate" }}"end": "{{ .Params.enddate }}",{{end}}
-      "all_day": false
+      "start": "{{ .Params.startdate }}{{ if isset .Params "starttime" }} {{ .Params.starttime }}{{ end }}"
+      {{ if isset .Params "enddate" }},"end": "{{ .Params.enddate }}{{ if isset .Params "endtime" }} {{ .Params.endtime }}{{ end }}"{{ end }}
+      {{ if isset .Params "allday" }},"all_day": {{ if eq .Params.allday true }}true{{ end }}{{ if eq .Params.allday false }}false{{ end }}{{end}}
+      {{ if isset .Params "location" }},"location": "{{ .Params.location }}"{{ end }}
     }
-
 
     {{ end }}{{end}}{{end}}{{ end }}
 

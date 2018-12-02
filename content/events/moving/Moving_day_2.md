@@ -1,7 +1,7 @@
 ---
 startdate:  2018-12-16
-starttime: "10h"
-
+starttime: "10:00"
+allday: true
 type: events
 eventtype: ""
 

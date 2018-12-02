@@ -1,6 +1,6 @@
 ---
 startdate:  2018-11-27
-starttime: "19h"
+starttime: "19:00"
 linktitle: "==TechTue 500!=="
 title: "TechTuesday 500!"
 price: ""

@@ -1,8 +1,9 @@
 ---
 startdate:  2019-01-28
-starttime: "10h"
+starttime: "10:00"
 enddate:  2019-02-01
 endtime: "10h"
+allday: true
 linktitle: "Lua on a stick"
 title: "Lua on a stick"
 location: "HSBXL"

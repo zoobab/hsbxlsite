@@ -1,6 +1,6 @@
 ---
 startdate:  2019-02-01
-starttime: "13h"
+starttime: "13:00"
 linktitle: "Blockstack Workshop"
 title: "Blockstack Workshop"
 location: "HSBXL"

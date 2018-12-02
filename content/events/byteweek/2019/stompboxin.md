@@ -1,6 +1,6 @@
 ---
 startdate:  2019-01-30
-starttime: "19h"
+starttime: "19:00"
 linktitle: "Stompboxin’, DIY fuzzboxes for bass and guitar"
 title: "Stompboxin’, DIY fuzzboxes for bass and guitar"
 location: "HSBXL"

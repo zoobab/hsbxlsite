@@ -1,6 +1,6 @@
 ---
 startdate:  2019-01-29
-starttime: "19h"
+starttime: "19:00"
 linktitle: "Introduction to LDAP"
 title: "Introduction to LDAP"
 location: "HSBXL"

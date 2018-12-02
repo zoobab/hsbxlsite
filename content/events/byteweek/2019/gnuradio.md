@@ -1,8 +1,8 @@
 ---
 startdate:  2019-01-31
-#starttime: "10h"
+#starttime: "10:00"
 enddate:  2019-02-01
-#endtime: "18h"
+allday: true
 linktitle: "pre-FOSDEM GNU Radio Hackfest"
 title: "pre-FOSDEM GNU Radio Hackfest 2019"
 location: "HSBXL"

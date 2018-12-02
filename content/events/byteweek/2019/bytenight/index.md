@@ -1,6 +1,6 @@
 ---
 startdate:  2019-02-02
-starttime: "18h"
+starttime: "18:00"
 linktitle: "Bytenight"
 title: "Bytenight 2019"
 location: "HSBXL"

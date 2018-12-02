@@ -1,7 +1,7 @@
 ---
 startdate:  2018-12-08
-starttime: "14h"
-endtime: "23h"
+starttime: "14:00"
+endtime: "23:00"
 linktitle: "Flash desoldering, dumping and JTAGenum"
 title: "Flash desoldering, dumping and JTAGenum workshop"
 location: "HSBXL"

@@ -6,7 +6,7 @@ title: "ZeroMQ Pre-Fosdem Hackaton 2019"
 location: "HSBXL"
 eventtype: "Hackaton"
 price: "Free"
-series: "bitday2019"
+series: "byteweek2019"
 allday: true
 --- 
 

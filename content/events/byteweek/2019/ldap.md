@@ -6,7 +6,7 @@ title: "Introduction to LDAP"
 location: "HSBXL"
 eventtype: "Talk/Workshop"
 price: "Free"
-series: "bitday2019"
+series: "byteweek2019"
 --- 
 
 Introduction to LDAP

@@ -6,7 +6,7 @@ title: "Pre-FOSDEM warmup with Kubernetes"
 location: "HSBXL"
 eventtype: "Talk"
 price: "Free"
-series: "bitday2019"
+series: "byteweek2019"
 image: "kubernetes.png"
 --- 
 

@@ -8,7 +8,7 @@ title: "pre-FOSDEM GNU Radio Hackfest 2019"
 location: "HSBXL"
 eventtype: "Workshop"
 price: "Free"
-series: "bitday2019"
+series: "byteweek2019"
 image: "gnuradio.png"
 --- 
 

@@ -9,10 +9,14 @@
 
 
 {{ with .Params.price }}<h5 class="price">Price: {{ . }}</h5>{{ end }}
-
+<br />
 {{ with  .OutputFormats.Get "calendar" -}}
 <a href="{{ .Permalink | safeURL }}" style="font-size: 90%">Add this event to your calendar</a>
 {{- end }}
+
+{{ if isset .Params "series"}}
+<div style="font-size: 90%">This event is part of series <strong>'{{ .Params.series}}'</strong></div>
+{{ end }}
 
 
 {{ partial "toc.html" . }}

@@ -6,7 +6,7 @@ title: "Stompboxin’, DIY fuzzboxes for bass and guitar"
 location: "HSBXL"
 eventtype: "Workshop"
 price: "Free"
-series: "bitday2019"
+series: "byteweek2019"
 --- 
 
 Stompboxin’, DIY fuzzboxes for bass and guitar

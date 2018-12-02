@@ -9,7 +9,7 @@ title: "Lua on a stick"
 location: "HSBXL"
 eventtype: "Workshop/hackaton"
 price: "Free"
-series: "bitday2019"
+series: "byteweek2019"
 image: "lua.gif"
 --- 
 

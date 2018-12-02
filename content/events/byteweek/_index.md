@@ -12,7 +12,7 @@ Eight ‘Bitdays’ of hackatons, workshops and talks.
 We end the octaweek with the notorious Bytenight!
 
 ## Upcoming Byteweek
-{{< events when="upcoming" series="byteweek" >}}
+{{< events when="upcoming" series="byteweek2019" >}}
 
 ## Past Byteweeks
-{{< events when="past" series="byteweek" >}}
+{{< events when="past" series="byteweek2019" >}}

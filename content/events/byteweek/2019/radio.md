@@ -6,7 +6,7 @@ title: "Amateur radio for hackers"
 location: "HSBXL"
 eventtype: "Talk"
 price: "Free"
-series: "bitday2019"
+series: "byteweek2019"
 --- 
 
 Lorem ipsum.

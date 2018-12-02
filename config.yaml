@@ -28,3 +28,4 @@ outputs:
   - "hackeragenda"
   page:
   - "html"
+  - "Calendar"

@@ -10,9 +10,6 @@ eventtype: "Workshop"
 price: "Free"
 series: "bitday2019"
 image: "gnuradio.png"
-outputs: 
-- HTML
-- Calendar 
 --- 
 
 Hacking on the GNU Radio codebase & related project will happen.

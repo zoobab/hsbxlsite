@@ -11,7 +11,7 @@
 {{ with .Params.price }}<h5 class="price">Price: {{ . }}</h5>{{ end }}
 
 {{ with  .OutputFormats.Get "calendar" -}}
-<a href="{{ .Permalink | safeURL }}">Add this event to your calendar.</a>
+<a href="{{ .Permalink | safeURL }}" style="font-size: 90%">Add this event to your calendar</a>
 {{- end }}
 
 

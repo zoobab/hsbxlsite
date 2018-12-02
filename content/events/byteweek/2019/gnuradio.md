@@ -1,6 +1,6 @@
 ---
 startdate:  2019-01-31
-#starttime: "10:00"
+starttime: "10:00"
 enddate:  2019-02-01
 allday: true
 linktitle: "pre-FOSDEM GNU Radio Hackfest"
@@ -10,6 +10,9 @@ eventtype: "Workshop"
 price: "Free"
 series: "bitday2019"
 image: "gnuradio.png"
+outputs: 
+- HTML
+- Calendar 
 --- 
 
 Hacking on the GNU Radio codebase & related project will happen.

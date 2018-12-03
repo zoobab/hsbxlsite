@@ -8,6 +8,7 @@ location: "HSBXL"
 eventtype: "hardware and software workshop"
 price: "Free"
 image: "flash_dump_example.jpg"
+aliases: [events/flash_desoldering_dumping_jtagenum_workshop]
 ---
 
 Goals

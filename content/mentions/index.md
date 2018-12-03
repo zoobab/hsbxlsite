@@ -1,6 +1,7 @@
 ---
 title: "HSBXL mentions"
 linktitle: "HSBXL mentions"
+aliases: [/media]
 ---
 
 An colection of 'HSBXL mentions' on media and other websites.

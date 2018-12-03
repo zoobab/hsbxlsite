@@ -5,6 +5,8 @@ location: "HSBXL"
 eventtype: ""
 price: "Free"
 aliases: [/techtuesday/]
+series: "TechTuesday"
+start: "true"
 ---
 
 Every Tuesday is TechTuesday, an open evening for both members and visitors.

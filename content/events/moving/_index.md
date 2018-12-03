@@ -1,6 +1,8 @@
 ---
 title: "Moving"
 linktitle: "Moving the space"
+series: moving
+start: "true"
 ---
 
 

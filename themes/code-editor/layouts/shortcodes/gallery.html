@@ -1,14 +1,14 @@
 <div class="gallery">
 
-    {{ $directory :=  .Get 0}}
-    {{ $resources := .Page.Resources.ByType "image" }}
-    {{ range $resources }}
-    {{ with . }}
+    {{- $directory := .Get 0 -}}
+    {{- $resources := .Page.Resources.ByType "image" -}}
+    {{- range $resources -}}
+    {{- with . -}}
     {{ $image200x := (.Resize "100x") }}
     <a href="{{ .RelPermalink }}">
         <img src="{{ $image200x.RelPermalink }}">
     </a>
-    {{ end }}
+    {{- end -}}
     {{ end }}
 
 </div>

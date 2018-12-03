@@ -7,7 +7,7 @@ location: "HSBXL"
 eventtype: "Thé dansant"
 price: ""
 image: "bytenight.png"
-series: "bitday2019"
+series: "byteweek2019"
 aliases: [/bytenight/]
 ---
 

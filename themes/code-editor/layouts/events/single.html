@@ -4,20 +4,27 @@
 {{ partial "breadcrumbs.html" . }}
 
 <h4 class="datetime">
-    {{ .Params.eventtype }} {{ if isset .Params "startdate"}}{{ .Params.startdate | dateFormat "Monday 2 January 2006"}}{{ end }} {{ if isset .Params "starttime"}}({{ .Params.starttime }}){{ end }}{{ if or (isset .Params "enddate") (isset .Params "endtime")}} till {{ end }}{{ if isset .Params "enddate"}}{{ .Params.enddate | dateFormat "Monday 2 January 2006"}}{{ end }}{{ if isset .Params "endtime"}} ({{ .Params.endtime }}){{ end }}{{ if isset .Params "location"}} @ {{ .Params.location }}{{ end }}.
+    {{ .Params.eventtype }} <br />
+    {{ if isset .Params "startdate"}}{{ .Params.startdate | dateFormat "Monday 2 January 2006"}}{{ end }} {{ if isset .Params "starttime"}}({{ .Params.starttime }}){{ end }}{{ if or (isset .Params "enddate") (isset .Params "endtime")}} till {{ end }}{{ if isset .Params "enddate"}}{{ .Params.enddate | dateFormat "Monday 2 January 2006"}}{{ end }}{{ if isset .Params "endtime"}} ({{ .Params.endtime }}){{ end }}{{ if isset .Params "location"}} @ {{ .Params.location }}{{ end }}
 </h4>
 
 
 {{ with .Params.price }}<h5 class="price">Price: {{ . }}</h5>{{ end }}
 <br />
+
+{{ if isset .Params "series"}}
+    {{ $series := .Params.series }}
+    {{ range where .Site.Pages "Params.series" $series }}
+        {{ if eq .Params.start "true"}}
+            <div style="font-size: 90%">This event is part of series '<strong><a href="{{ .Permalink }}">{{ $series }}</a></strong>'</div>
+        {{ end }}
+    {{ end }}
+{{ end }}
+
+
 {{ with  .OutputFormats.Get "calendar" -}}
 <a href="{{ .Permalink | safeURL }}" style="font-size: 90%">Add this event to your calendar</a>
 {{- end }}
-
-{{ if isset .Params "series"}}
-<div style="font-size: 90%">This event is part of series <strong>'{{ .Params.series}}'</strong></div>
-{{ end }}
-
 
 {{ partial "toc.html" . }}
 

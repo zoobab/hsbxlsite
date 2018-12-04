@@ -1,6 +1,6 @@
 ---
 startdate:  2019-01-26
-starttime: "10:00"
+starttime: "14:00"
 allday: true
 linktitle: "Setting up Odoo and writing your first app"
 title: "Setting up Odoo and writing your first app"

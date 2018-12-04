@@ -41,6 +41,7 @@ Write down all questions we have for the citygate PM
 
 - [X] Choose [moving days](/events/moving)
 - [X] Remove floor
+- [X] Remove wall between first and second room
 - [ ] Make truck reservation
 - [ ] Uninstall elevator box @ Molenbeek
 - [ ] Uninstall water pipe at @ Molenbeek

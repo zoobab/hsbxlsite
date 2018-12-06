@@ -40,10 +40,10 @@ Write down all questions we have for the citygate PM
 # Progress
 
 - [X] Choose [moving days](/events/moving)
-- [X] Remove floor
-- [X] Remove wall between first and second room
-- [X] Close the window next to the door
-- [X] Fill the airgaps above the windows
+- [X] Remove [floor](images/IMG_20181120_183839.jpg)
+- [X] Remove [wall between first and second room](images/IMG_20181204_180039.jpg)
+- [X] Close the [window next to the door](images/IMG_0021_result.JPG)
+- [X] Fill the [airgaps above the windows](images/IMG_0023_result.JPG)
 - [ ] Make truck reservation
 - [ ] Uninstall elevator box @ Molenbeek
 - [ ] Uninstall water pipe at @ Molenbeek

@@ -1,4 +1,5 @@
-<div class="gallery">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.js" async></script>
+<div class="photo gallery">
 
     {{- $directory := .Get 0 -}}
     {{- $resources := .Page.Resources.ByType "image" -}}
@@ -12,3 +13,4 @@
     {{ end }}
 
 </div>
+<script>baguetteBox.run('.photo');</script>

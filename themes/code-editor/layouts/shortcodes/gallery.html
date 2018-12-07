@@ -17,7 +17,9 @@
 <script>baguetteBox.run('.photo');</script>
 <script>
     $('.grid').masonry({
-        itemSelector: '.grid-item',
-        columnWidth: 110
-    });
+        // options
+        itemSelector : '.grid-item',
+        columnWidth : 110,
+
+    }).masonry('reload');
 </script>

@@ -1,6 +1,6 @@
 {{ $when :=  .Get "when"}}
 {{ $series :=  .Get "series"}}
-
+{{ $t := (time $when) }}
 
 {{ if eq $when "" }}
 <div class="events">
@@ -18,10 +18,7 @@
         {{ end }}
     </ul>
 </div>
-{{ end }}
-
-
-{{ if or (eq $when "upcoming") }}
+{{ else if eq $when "upcoming" }}
 <div class="events">
     <ul>
         {{ range $.Site.RegularPages.ByParam "startdate" }}
@@ -46,11 +43,7 @@
         {{ end }}
     </ul>
 </div>
-{{ end }}
-
-
-
-{{ if or (eq $when "past") }}
+{{ else if eq $when "past" }}
 <div class="events">
     <ul>
         {{ range ($.Site.RegularPages.ByParam "startdate").Reverse }}
@@ -77,6 +70,37 @@
         {{ end }}
         {{ end }}
     </ul>
-
 </div>
+
+{{ else }}
+
+<div class="events">
+    <ul>
+        {{ range $.Site.RegularPages.ByParam "startdate" }}
+            {{ if or (eq .Type "events") (eq .Type "techtuesday") }}
+
+                {{ if ne $series "all" }}
+
+                    {{ if eq .Params.series $series}}
+                        {{ if isset .Params "startdate" }}
+                            {{ if and ( ge $when .Params.startdate) (le $when .Params.enddate) (ne .Params.start "true") }}
+                                <li><a href="{{ .Permalink }}">{{ .Params.linktitle }}</a></li>
+                            {{ end }}
+                        {{ end }}
+                    {{ end }}
+
+                {{ else }}
+
+                    {{ if isset .Params "startdate" }}
+                        {{ if and ( ge $when .Params.startdate) (le $when .Params.enddate) (ne .Params.start "true") }}
+                            <li><a href="{{ .Permalink }}">{{ .Params.startdate | dateFormat "Mon 02 Jan 2006"}}{{ if isset .Params "enddate" }} till {{ .Params.enddate | dateFormat "Mon 2 Jan 2006"}}{{ end }}: {{ .Params.linktitle }}</a></li>
+                        {{ end }}
+                    {{ end }}
+
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    </ul>
+</div>
+
 {{ end }}

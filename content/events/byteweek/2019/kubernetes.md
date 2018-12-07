@@ -1,6 +1,7 @@
 ---
 startdate:  2019-02-01
 starttime: "18:00"
+enddate:  2019-02-01
 linktitle: "Pre-FOSDEM warmup with Kubernetes"
 title: "Pre-FOSDEM warmup with Kubernetes"
 location: "HSBXL"

@@ -7,6 +7,7 @@ price: ""
 image: "bbq.png"
 series: "TechTuesday"
 eventtype: "BBQ and GNUwhine night"
+location: "HSBXL"
 ---
 
 Found the very first TechTuesday, which was on Apr 7th, 2009: http://hsb.wikidot.com/techtue01

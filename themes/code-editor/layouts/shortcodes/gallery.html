@@ -16,10 +16,12 @@
 </div>
 <script>baguetteBox.run('.photo');</script>
 <script>
-    $('.grid').masonry({
-        // options
-        itemSelector : '.grid-item',
-        columnWidth : 110,
+    $(window).load(function(){
+        $('.grid').masonry({
+            // options
+            itemSelector : '.grid-item',
+            columnWidth : 110,
 
-    }).masonry('reload');
+        }).masonry('reload');
+    });
 </script>

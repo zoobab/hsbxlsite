@@ -1,12 +1,15 @@
 {{ partial "top.html" . }}
 
-<h1>{{ .Title }}</h1>
-{{ partial "breadcrumbs.html" . }}
+<div class="vevent" id="hcalendar-event-title">
+
+    <a class="url" href="{{ .Permalink }}" style="text-decoration: none; color: #839496;"><h1 class="summary">{{ .Title }}</h1></a>
+
+    {{ partial "breadcrumbs.html" . }}
 
 <h4 class="datetime">
     <div>{{ .Params.eventtype }}</div>
-    <div>{{ if isset .Params "startdate"}}{{ .Params.startdate | dateFormat "Monday 2 January 2006"}}{{ end }}{{ if isset .Params "starttime"}}, {{ .Params.starttime }}{{ end }}{{ if or (isset .Params "enddate") (isset .Params "endtime")}} / till {{ end }}{{ if isset .Params "enddate"}}{{ .Params.enddate | dateFormat "Monday 2 January 2006"}}{{ end }}{{ if isset .Params "endtime"}} {{ .Params.endtime }}{{ end }}</div>
-    <div>{{ if isset .Params "location"}} @ {{ .Params.location }}{{ end }}</div>
+    <div><time>{{ if isset .Params "startdate"}}<time datetime="{{ .Params.startdate | dateFormat "2006-01-02"}}" class="dtstart">{{ .Params.startdate | dateFormat "Monday 2 January 2006"}}</time>{{ end }}{{ if isset .Params "starttime"}}, {{ .Params.starttime }}{{ end }}{{ if or (isset .Params "enddate") (isset .Params "endtime")}} / till {{ end }}{{ if isset .Params "enddate"}}<time datetime="{{ .Params.enddate | dateFormat "2006-01-02"}}" class="dtend">{{ .Params.enddate | dateFormat "Monday 2 January 2006"}}</time>{{ end }}{{ if isset .Params "endtime"}} {{ .Params.endtime }}{{ end }}</div>
+    <div>@ <span class="location">{{ if isset .Params "location"}}{{ .Params.location }}{{ end }}</span></div>
 </h4>
 
 
@@ -44,9 +47,10 @@
     Pad: <a href="https://etherpad.openstack.org/p/coremeeting-{{ .File }}">https://etherpad.openstack.org/p/coremeeting-{{ .File }}</a>
     {{ end }}
 
-    {{ .Content }}
+    <div class="description">{{ .Content }}</div>
 </article>
 
+</div>
 
 {{ partial "bottom.html" . }}
 

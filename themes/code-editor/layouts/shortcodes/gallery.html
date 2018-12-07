@@ -1,12 +1,13 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.js" async></script>
-<div class="photo gallery">
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<div class="photo gallery grid">
 
     {{- $directory := .Get 0 -}}
     {{- $resources := .Page.Resources.ByType "image" -}}
     {{- range $resources -}}
     {{- with . -}}
     {{ $image200x := (.Resize "100x") }}
-    <a href="{{ .RelPermalink }}">
+    <a href="{{ .RelPermalink }}" class="grid-item" style="border:5px solid transparent">
         <img src="{{ $image200x.RelPermalink }}">
     </a>
     {{- end -}}
@@ -14,3 +15,9 @@
 
 </div>
 <script>baguetteBox.run('.photo');</script>
+<script>
+    $('.grid').masonry({
+        itemSelector: '.grid-item',
+        columnWidth: 110
+    });
+</script>

@@ -9,10 +9,10 @@
             {{ if or (eq .Type "events") (eq .Type "techtuesday") }}
                 {{ if ne $series "all" }}
                     {{ if eq .Params.series $series}}
-                        <li><a href="{{ .Permalink }}">{{ .Params.startdate | dateFormat "Mon 02 Jan 2006"}}{{ if isset .Params "enddate" }} till {{ .Params.enddate | dateFormat "Mon 2 Jan 2006"}}{{ end }}: {{ .Params.linktitle }}</a></li>
+                        <li><a href="{{ .Permalink }}">{{ .Params.startdate | dateFormat "Mon 02 Jan 2006"}}{{ if and (isset .Params "enddate") (ne .Params.startdate .Params.enddate ) }} till {{ .Params.enddate | dateFormat "Mon 2 Jan 2006"}}{{ end }}: {{ .Params.linktitle }}</a></li>
                     {{ end }}
                 {{ else }}
-                    <li><a href="{{ .Permalink }}">{{ .Params.startdate | dateFormat "Mon 02 Jan 2006"}}{{ if isset .Params "enddate" }} till {{ .Params.enddate | dateFormat "Mon 2 Jan 2006"}}{{ end }}: {{ .Params.linktitle }}</a></li>
+                    <li><a href="{{ .Permalink }}">{{ .Params.startdate | dateFormat "Mon 02 Jan 2006"}}{{ if and (isset .Params "enddate") (ne .Params.startdate .Params.enddate ) }} till {{ .Params.enddate | dateFormat "Mon 2 Jan 2006"}}{{ end }}: {{ .Params.linktitle }}</a></li>
                 {{ end }}
             {{ end }}
         {{ end }}

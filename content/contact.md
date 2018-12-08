@@ -17,7 +17,7 @@ linktitle: "Get in contact"
 - **Mastodon:**
     [@hsbxl@mastodon.social](https://mastodon.social/@hsbxl)
 - **Matrix chat:** \#hsbxl on hackerspaces.be
-    ([webchat](https://ptt.hackerspace.be/#/room/#hsbxl:hackerspace.be))
+    ([webchat](https://ptt.hackerspaces.be/#/room/#hsbxl:hackerspace.be))
 - **IRC:** \#hsbxl on irc.freenode.net
     ([webchat](https://ptt.hackerspaces.be/#/room/#hsbxl:hackerspaces.be))
 - **Matrix** HSBXL on

@@ -14,6 +14,7 @@ HSBXL is moving to Citygate!
 - [X] Remove [wall between first and second room](images/IMG_20181204_180039.jpg)
 - [X] Close the [window next to the door](images/IMG_0021_result.JPG)
 - [X] Fill the [airgaps above the windows](images/IMG_0023_result.JPG)
+- [X] Install Wireless België (temporary internet for during the move)
 - [ ] Make truck reservation
 - [ ] Uninstall elevator box @ Molenbeek
 - [ ] Uninstall water pipe at @ Molenbeek

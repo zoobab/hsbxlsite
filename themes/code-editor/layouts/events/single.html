@@ -27,8 +27,10 @@
 
 
 {{ with  .OutputFormats.Get "calendar" -}}
-<a href="{{ .Permalink | safeURL }}" style="font-size: 90%">Add this event to your calendar</a>
+    <div><a href="{{ .Permalink | safeURL }}" style="font-size: 90%">Add this  event to your calendar</a></div>
 {{- end }}
+
+    <div><a href="/events/index.ics" style="font-size: 90%">Add all HSBXL events to your calendar</a></div>
 
 {{ partial "toc.html" . }}
 
@@ -45,6 +47,7 @@
     {{ if eq .Dir "events/coremeeting/" }}
     <h1>Coremeeting Etherpad</h1>
     Pad: <a href="https://etherpad.openstack.org/p/coremeeting-{{ .File }}">https://etherpad.openstack.org/p/coremeeting-{{ .File }}</a>
+
     {{ end }}
 
     <div class="description">{{ .Content }}</div>

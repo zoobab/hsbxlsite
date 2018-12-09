@@ -4,6 +4,8 @@ title: "Hackerspace Brussels (HSBXL)"
 theme: "code-editor"
 languageCode: "en-us"
 
+EnableGitInfo: true
+
 params:
 
   # Alert box on top of each page
@@ -26,6 +28,7 @@ outputs:
   - "html"
   - "rss"
   - "hackeragenda"
+  - "Calendar"
   page:
   - "html"
   - "Calendar"

@@ -35,6 +35,7 @@ UID:{{ .File.Path }}@hsbxl.be
 SEQUENCE:0
 STATUS:CONFIRMED
 DTSTART:{{dateFormat "20060102T150405" .Params.startdate}}
+DTSTAMP:{{dateFormat "20060102T150405" .GitInfo.AuthorDate}}
 {{if isset .Params "enddate"}}DTEND:{{- dateFormat "20060102T150405" .Params.enddate -}}{{ end }}
 LOCATION:{{with .Params.location}}{{.}}{{else}}TBD{{end}}
 URL:{{.Permalink}}

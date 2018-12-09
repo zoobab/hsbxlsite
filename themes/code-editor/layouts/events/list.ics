@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//hsbxl.be//events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Hackerspace Brussels HSBXL Events
+X-WR-TIMEZONE:Europe/Brussels
+BEGIN:VTIMEZONE
+TZID:Europe/Brussels
+X-LIC-LOCATION:Europe/Brussels
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+
+{{- range $.Site.RegularPages.ByParam "startdate" -}}
+    {{- if or (eq .Type "events") (eq .Type "techtuesday") -}}
+        {{- if isset .Params "startdate" -}}
+            {{- if ge .Params.startdate (now.Format "2006-01-02") -}}
+
+BEGIN:VEVENT
+SUMMARY:{{.Title}}
+ORGANIZER;CN="Hackerspace Brussels":mailto:contact@hsbxl.be
+DESCRIPTION:{{ .Permalink }}
+UID:{{ .File.Path }}@hsbxl.be
+SEQUENCE:0
+STATUS:CONFIRMED
+DTSTART:{{dateFormat "20060102T150405" .Params.startdate}}
+{{if isset .Params "enddate"}}DTEND:{{- dateFormat "20060102T150405" .Params.enddate -}}{{ end }}
+LOCATION:{{with .Params.location}}{{.}}{{else}}TBD{{end}}
+URL:{{.Permalink}}
+END:VEVENT
+            {{ end }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+
+END:VCALENDAR

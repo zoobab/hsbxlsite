@@ -20,8 +20,8 @@ outputFormats:
     mediaType: "application/json"
     baseName: "hackeragenda"
     isPlainText: true
-#  Calendar:
-#    protocol: "http://"
+  Calendar:
+    protocol: "http://"
 
 outputs:
   home:

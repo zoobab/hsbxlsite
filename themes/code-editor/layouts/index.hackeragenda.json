@@ -3,7 +3,7 @@
   "api": "2.0",
   "home_page_url": "{{ .Permalink }}",
   "feed_url": "{{ .Permalink }}hackeragenda.json",
-  "events": [ {{ range $index, $item := .Data.Pages.ByParam "startdate" }}{{ if eq .Type "events" }}{{ if isset .Params "startdate" }}{{ if ge .Params.startdate (now.Format "2006-01-02") }}
+  "events": [ {{ range $index, $item := .Data.Pages.ByParam "startdate" }}{{ if eq .Type "events" }}{{ if isset .Params "startdate" }}{{ if ge .Params.startdate (now.Format "2006-01-02") }}{{ if ne .Params.hackeragenda "false" }}
 
 {{$counter := $.Scratch.Get "counter"}}{{ if gt $counter 0}},{{end}}
 {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
@@ -17,7 +17,7 @@
       {{ if isset .Params "location" }},"location": "{{ .Params.location }}"{{ end }}
     }
 
-    {{ end }}{{end}}{{end}}{{ end }}
+    {{ end }}{{ end }}{{ end }}{{ end }}{{ end}}
 
   ]
 }

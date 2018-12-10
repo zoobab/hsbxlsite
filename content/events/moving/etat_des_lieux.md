@@ -4,7 +4,7 @@ starttime: "10:00"
 allday: false
 type: events
 eventtype: ""
-hackeragenda: false
+hackeragenda: "false"
 
 title: "état des lieux"
 linktitle: "état des lieux"

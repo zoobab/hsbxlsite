@@ -1,6 +1,7 @@
 ---
 title: "Hackerspace Brussels - HSBXL"
 linktitle: "Hackerspace Brussels - HSBXL"
+aliases: [/welcome]
 ---
 
 ## Connect

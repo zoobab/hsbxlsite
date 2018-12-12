@@ -1,8 +1,7 @@
 ---
 title: "Hackerspace membership"
-linktitle: "Can I be a hackerspace member?"
+linktitle: "Hackerspace membership"
 ---
-
 
 Being a space member has benefits but off coarse also some responsibilities.  
 -- With great power comes great responsibility.
@@ -33,12 +32,15 @@ Tip:
 - Truth is usually somewhere in the middle. Most issues aren't binary anyway. Requantize.
 - Last but foremost: Be excellent to eachother.
 
+-- From https://wiki.hsbxl.be/Patterns
+
 # Steps on becoming a member
 
 - Come over on a [TechTuesday](/events/techtuesday), come say hi.
-- Fill out the membership form.
-- You will receive a welcome mail with paying instructions.
-- Once we receive your payment, you can pickup an access key/badge on a next TechTuesday.
+- Fill out the membership form. 
+- Find 2 sponsors to sign your membership form.
+- Once processed, you will receive a welcome mail with paying instructions.
+- Once we receive your payment, you can pickup an access key/badge on a next [TechTuesday](/events/techtuesday).
 
 # Paying instructions?
 Yes. As much as we could like otherwise,  
@@ -48,7 +50,10 @@ If you would like to become member at a social fee,
 or you want to switch to a social fee, mail the board at [board@hsbxl.be](mailto:board@hsbxl.be?subject=social fee).  
 This mail traffic is limited to people from the hackerspace board, so confidentiality is assured.  
 
-## What are our costs?
-- Rent: 630€/month
-- Heating: +- 100€/month
+## What are our fixed costs?
+- Rent: €630/month
+- Heating: +- €100/month
 - Insurance: ?/year
+- Legal costs (ex. statute changes): +- €100/year
+
+Further we have nice tools and spend money at keeping it that way.

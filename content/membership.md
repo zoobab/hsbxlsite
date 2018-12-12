@@ -43,12 +43,12 @@ Tip:
 - Once we receive your payment, you can pickup an access key/badge on a next [TechTuesday](/events/techtuesday).
 
 # Paying instructions?
-Yes. As much as we could like otherwise,  
+Yes. As much as we would like otherwise,  
 we need to pay bills to keep the ship afloat. That's why we ask **€25 a month**.  
-We understand 25€ is quite a steep fee for some members, so we agreed on having a social fee of €15 a month.  
+We understand 25€ is quite a steep fee for some members, so we agreed on having a social fee of €15 a month.
 If you would like to become member at a social fee,  
 or you want to switch to a social fee, mail the board at [board@hsbxl.be](mailto:board@hsbxl.be?subject=social fee).  
-This mail traffic is limited to people from the hackerspace board, so confidentiality is assured.  
+This mail traffic is limited to people from the hackerspace board, so you can expect confidentiality.
 
 ## What are our fixed costs?
 - Rent: €630/month

@@ -11,7 +11,7 @@ Being a space member has benefits but off coarse also some responsibilities.
 - 24/7 access
   - Every member has always access to the space. 
 - Member shelve
-  - Every member can get a personal shelve AKA a drawer, to store personal stuff.
+  - Every member can get a member shelve AKA a drawer, to store personal stuff.
 - Discount if/on paying activities
 
 
@@ -35,7 +35,20 @@ Tip:
 
 # Steps on becoming a member
 
-- Come over on a TechTuesday
-- Fill out the membership form
-- You will receive a welcome mail with paying instructions
-- Once we receive your payment, you will get a access key/badge on the next TechTuesday
+- Come over on a [TechTuesday](/events/techtuesday), come say hi.
+- Fill out the membership form.
+- You will receive a welcome mail with paying instructions.
+- Once we receive your payment, you can pickup an access key/badge on a next TechTuesday.
+
+# Paying instructions?
+Yes. As much as we could like otherwise,  
+we need to pay bills to keep the ship afloat. That's why we ask **€25 a month**.  
+We understand 25€ is quite a steep fee for some members, so we agreed on having a social fee of €15 a month.  
+If you would like to become member at a social fee,  
+or you want to switch to a social fee, mail the board at [board@hsbxl.be](mailto:board@hsbxl.be?subject=social fee).  
+This mail traffic is limited to people from the hackerspace board, so confidentiality is assured.  
+
+## What are our costs?
+- Rent: 630€/month
+- Heating: +- 100€/month
+- Insurance: ?/year

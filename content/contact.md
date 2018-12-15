@@ -17,11 +17,11 @@ linktitle: "Get in contact"
 - **Mastodon:**
     [@hsbxl@mastodon.social](https://mastodon.social/@hsbxl)
 - **Matrix chat:** \#hsbxl on hackerspaces.be
-    ([webchat](https://ptt.hackerspaces.be/#/room/#hsbxl:hackerspace.be))
+    ([webchat](https://ptt.hackerspaces.be/#/room/#hsbxl:hackerspaces.be))
 - **IRC:** \#hsbxl on irc.freenode.net
     ([webchat](https://ptt.hackerspaces.be/#/room/#hsbxl:hackerspaces.be))
 - **Matrix** HSBXL on
-    [ptt.hackerspace.be](https://ptt.hackerspaces.be/#/room/#hsbxl:hackerspace.be)
+    [ptt.hackerspaces.be](https://ptt.hackerspaces.be/#/room/#hsbxl:hackerspaces.be)
 - **Mailing-list:** see the [ mailing-List](mailing-list "wikilink")
     page
 - **Bank:** Argenta IBAN: BE69 9794 2977 5578; BIC: ARSP BE 22

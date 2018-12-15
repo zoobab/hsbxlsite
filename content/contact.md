@@ -28,9 +28,8 @@ Brussels, Belgium
 
 ## By public transport 🚆
 
-From Brussels south train station:
-
-  - The space is located at 950m from Brussels south transtation [Route on Google maps](https://goo.gl/maps/MzAzVSRpjB72)
+From Brussels south train station:  
+The space is located at 950m from Brussels south transtation [Route on Google maps](https://goo.gl/maps/MzAzVSRpjB72)
 
 ## By car 🚘
 

@@ -8,7 +8,7 @@ linktitle: "Get in contact"
 - **Pidgeon:** 50.832593, 4.322160
     ([GoogleMaps](https://goo.gl/maps/NwCELYFNmXp))([OpenStreetMap](https://osm.org/go/0EoSTZ3_O))
 - **Email:** contact@hsbxl.be
-- **Telephone:** +32 2 880 40 04 (phone is in space)
+- **Telephone:** [+32 2 880 40 04](tel:003228804004) (phone is in space)
 - **Facebook:** [HSBXL on Facebook](https://www.facebook.com/groups/hsbxl/)
 - **Twitter:** [hsbxl](http://twitter.com/hsbxl) and [\#hsbxl](https://twitter.com/search?q=%23hsbxl)
 - **Mastodon:** [@hsbxl@mastodon.social](https://mastodon.social/@hsbxl)

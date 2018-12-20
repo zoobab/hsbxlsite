@@ -1,6 +1,6 @@
 ---
 title: "Move to Citygate"
-linktitle: "Citygate"
+linktitle: "Move to Citygate"
 state: running
 image: "citygate.png"
 ---
@@ -15,23 +15,31 @@ HSBXL is moving to Citygate!
 - [X] Close the [window next to the door](images/IMG_0021_result.JPG)
 - [X] Fill the [airgaps above the windows](images/IMG_0023_result.JPG)
 - [X] Install Wireless België (temporary internet for during the move)
-- [ ] Make truck reservation
+- [X] Make truck reservation
+- [X] Uninstall heaters
+- [X] Uninstall TV's & other stuff hanging on the walls
+- [X] Make all desks ready to move
+- [X] Uninstall electronics lab
+- [X] Uninstall Wireless België @ Molenbeek
+- [X] Pickup moving truck
+- [X] Actual move
+- [X] Return moving truck
 - [ ] Uninstall elevator box @ Molenbeek
 - [ ] Uninstall water pipe at @ Molenbeek
-- [ ] Uninstall heaters
-- [ ] Uninstall TV's & other stuff hanging on the walls
-- [ ] Make all desks ready to move
-- [ ] Uninstall electronics lab
 - [ ] Create cool street signs to put between south trainstation and the space, mention meters left...
 - [ ] Arrange access / copy keys
 - [ ] Install Wireless België
 - [ ] Install internet / wifi
-- [ ] Uninstall Wireless België @ Molenbeek
-- [ ] Pickup moving truck
-- [ ] Return moving truck
 - [ ] Setup the kitchen / the bar
 - [ ] Install 'elevator box' @ Citygate
 - [ ] Install '[black knight](/projects/black_knight)' @ Citygate
+- [ ] Hang the screens
+- [ ] Hang whiteboards
+- [ ] Hang the 'strokengordijn'
+- [ ] Fix the waterleak
+- [ ] Install rockwool on our roof
+- [ ] Replace our door with metal door
+- [ ] Setup Hardcorener
 
 # Citygate in the media
 

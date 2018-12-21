@@ -24,6 +24,7 @@ HSBXL is moving to Citygate!
 - [X] Pickup moving truck
 - [X] Actual move
 - [X] Return moving truck
+- [X] Hang the 'strokengordijn'
 - [ ] Uninstall elevator box @ Molenbeek
 - [ ] Uninstall water pipe at @ Molenbeek
 - [ ] Create cool street signs to put between south trainstation and the space, mention meters left...
@@ -35,7 +36,6 @@ HSBXL is moving to Citygate!
 - [ ] Install '[black knight](/projects/black_knight)' @ Citygate
 - [ ] Hang the screens
 - [ ] Hang whiteboards
-- [ ] Hang the 'strokengordijn'
 - [ ] Fix the waterleak
 - [ ] Install rockwool on our roof
 - [ ] Replace our door with metal door

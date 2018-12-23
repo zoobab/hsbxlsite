@@ -21,7 +21,8 @@ TZNAME:PST
 RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
-{{- range $.Site.RegularPages.ByParam "startdate" -}}{{- if or (eq .Type "events") (eq .Type "techtuesday") -}}{{- if isset .Params "startdate" -}}{{- if ge .Params.startdate (now.Format "2006-01-02") }}
+{{- range $.Site.RegularPages.ByParam "startdate" -}}{{- if or (eq .Type "events") (eq .Type "techtuesday") -}}{{- if isset .Params "startdate" -}}{{- if isset .Params "starttime" -}}{{- if ge .Params.startdate (now.Format "2006-01-02") }}
+{{ $startdate := printf "%sT%s%s" .Params.startdate .Params.starttime ":00" }}
 BEGIN:VEVENT
 SUMMARY:{{.Title}}
 ORGANIZER;CN="Hackerspace Brussels":mailto:contact@hsbxl.be
@@ -29,11 +30,10 @@ DESCRIPTION:{{ .Permalink }}
 UID:{{ .File.Path }}@hsbxl.be
 SEQUENCE:0
 STATUS:CONFIRMED
-DTSTART:{{dateFormat "20060102T150405" .Params.startdate}}
+DTSTART:{{dateFormat "20060102T150405" $startdate}}
 DTSTAMP:{{dateFormat "20060102T150405" .GitInfo.AuthorDate}}
-{{ if isset .Params "enddate" }}DTEND:{{ dateFormat "20060102T150405" .Params.enddate }}{{ end }}
 {{ with .Params.location}}LOCATION:{{.}}{{else}}TBD{{end}}
 URL:{{.Permalink}}
 END:VEVENT
-{{- end }}{{ end }}{{ end }}{{ end }}
+{{- end }}{{ end }}{{ end }}{{ end }}{{ end }}
 END:VCALENDAR

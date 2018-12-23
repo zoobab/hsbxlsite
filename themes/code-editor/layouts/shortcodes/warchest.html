@@ -1,0 +1,6 @@
+{{ if eq (.Get 0) "amount" -}}
+    {{ .Site.Data.books.warchest.warchest.amount }}
+{{- end -}}
+{{ if eq (.Get 0) "date" -}}
+    {{ .Site.Data.books.warchest.warchest.date }}
+{{- end -}}

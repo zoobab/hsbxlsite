@@ -1,0 +1,26 @@
+<table style="border: 1px solid white;">
+    <tr style="border: 1px solid white; background-color: #fb0404; color: white">
+        <td style="border: 1px solid white; padding: 3px 10px;">Period</td>
+        <td style="border: 1px solid white; padding: 3px 10px;">Type</td>
+        <td style="border: 1px solid white; padding: 3px 10px;">Amount</td>
+    </tr>
+
+    {{ $total := newScratch }}
+
+    {{ range .Site.Data.books.outgoing}}
+    {{range .items}}
+    {{.Scratch.Add "total" 1 }}
+    {{$date := (print .year "-" .month "-01" ) }}
+    <tr>
+        <td style="border: 1px solid white; padding: 3px 10px;">{{ dateFormat "Jan 2006" $date }}</td>
+        <td style="border: 1px solid white; padding: 3px 10px;">{{.type}}</td>
+        <td style="border: 1px solid white; padding: 3px 10px;">€{{.amount}}</td>
+    </tr>
+    {{ end }}
+    {{ end }}
+
+
+
+</table>
+
+{{ .Scratch.Get "total" }}

@@ -1,0 +1,27 @@
+items:
+
+  - type: membership
+    year: "2018"
+    month: "09"
+    amount: 275
+  - type: donations
+    year: "2018"
+    month: "09"
+    amount: 100
+  - type: "Drinks & food"
+    year: "2018"
+    month: "09"
+    amount: 130
+  - type: membership
+    year: "2018"
+    month: "10"
+    amount: 300
+  - type: donations
+    year: "2018"
+    month: "09"
+    amount: 100
+  - type: "Drinks & food"
+    year: "2018"
+    month: "10"
+    amount: 150
+

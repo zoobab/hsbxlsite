@@ -1,0 +1,27 @@
+items:
+
+- type: "rent"
+  year: "2018"
+  month: "09"
+  amount: 650
+
+- type: "Gas"
+  year: "2018"
+  month: "09"
+  amount: 100
+- type: "Electricity"
+  year: "2018"
+  month: "09"
+  amount: 100
+- type: "Rent"
+  year: "2018"
+  month: "10"
+  amount: 650
+- type: "Gas"
+  year: "2018"
+  month: "10"
+  amount: 100
+- type: "Electricity"
+  year: "2018"
+  month: "10"
+  amount: 100

@@ -7,12 +7,13 @@ price: "Free"
 series: "byteweek"
 --- 
 
-8 days before Fosdem conference, HSBXL compiles ByteWeek.
-Eight ‘Bitdays’ of hackatons, workshops and talks.
-We end the octaweek with the notorious Bytenight!
+The week before Fosdem conference, HSBXL compiles ByteWeek.  
+Eight 'Bitdays' of hackatons, workshops and talks.  
+We end our week with the notorious [Bytenight](/bytenight)!
+
 
 ## Upcoming Byteweek
-{{< events when="upcoming" series="byteweek2019" >}}
+{{< series when="upcoming" series="byteweek2019" >}}
 
 ## Past Byteweeks
-{{< events when="past" series="byteweek2019" >}}
+{{< series when="past" series="byteweek2019" >}}

@@ -11,7 +11,7 @@ series: "byteweek2019"
 --- 
 
 What do you think about when somebody mentions "amateur radio" (also 
-know as "ham radio")?
+know as "ham radio")?  
 If a mental image pops up in your head of a truckers talking in a 
 microphone in his cab about "the bear in the sky", or old men doing 
 morse code using a vintage radio with vacuum tubes, be prepared to have 

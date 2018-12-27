@@ -14,7 +14,7 @@
     <h2>Running projects</h2>
     Projects still active. Work in progress.
     <ul>
-        {{ range $.Site.RegularPages.ByParam "linktitle" }}
+        {{ range $.Site.Pages.ByParam "linktitle" }}
             {{ if eq .Type "projects" }}
                 {{ if eq .Params.state "running"}}
                     {{ if ge .Params.startdate (now.Format "2006-01-02") }}

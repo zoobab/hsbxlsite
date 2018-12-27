@@ -4,10 +4,12 @@
 <h1>{{ .Title }}</h1>
 {{ partial "breadcrumbs.html" . }}
 
+{{ if ne .File.Path "projects/_index.md" }}
 <div class="project_intro">
     This {{ if eq .Params.state "running"}}is a running{{else}}was a{{ end }} project at HSBXL. See <a href="{{ .Site.BaseURL }}projects">other space projects</a>. <br />
     {{ if isset .Params "maintainer"}}If you want more info about this project, ask '{{ .Params.maintainer }}'.{{end}}
 </div>
+{{ end }}
 
 {{ partial "toc.html" . }}
 
@@ -19,5 +21,7 @@
 </article>
 
 
+
 {{ partial "bottom.html" . }}
+
 

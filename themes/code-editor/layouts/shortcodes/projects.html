@@ -1,0 +1,15 @@
+{{- $state := .Get 0 -}}
+
+<ul>
+    {{ range $.Site.Pages.ByParam "linktitle" }}
+    {{ if eq .Type "projects" }}
+    {{ if eq .Params.state $state}}
+    {{ if ge .Params.startdate (now.Format "2006-01-02") }}
+    <li>
+        <a href="{{ .Permalink }}">{{ .Params.linktitle }}</a>
+    </li>
+    {{ end }}
+    {{ end }}
+    {{ end }}
+    {{ end }}
+</ul>

@@ -30,12 +30,12 @@
                 {{- if eq .Type "events" -}}
                     {{- if isset .Params "startdate" -}}
                         {{ if ge .Params.startdate (now.Format "2006-01-02") }}
-            <li class="row">
-                <a href="{{ .Permalink }}" style="box-sizing: border-box;">
-                    <div class="date col-md-5" style="text-align: right; margin:0; padding:0 10px 0 0; font-weight: 800">{{ .Params.startdate | dateFormat "Mon 02 Jan"}}:</div>
-                    <div class="col-md-7" style="padding: 0 5px; color: #839496; background-color: #000">{{ .Params.linktitle }}</div>
-                </a>
-            </li>
+                            <li class="row">
+                                <a href="{{ .Permalink }}" style="box-sizing: border-box;">
+                                    <div class="date col-md-5" style="text-align: right; margin:0; padding:0 10px 0 0; font-weight: 800">{{ .Params.startdate | dateFormat "Mon 02 Jan"}}:</div>
+                                    <div class="col-md-7" style="padding: 0 5px; color: #839496; background-color: #000">{{ .Params.linktitle }}</div>
+                                </a>
+                            </li>
                         {{- end -}}
                     {{- end -}}
                 {{- end -}}

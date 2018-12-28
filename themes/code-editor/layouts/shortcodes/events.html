@@ -40,8 +40,15 @@
                     {{ if isset .Params "startdate" }}
                         {{ if ge .Params.startdate (now.Format "2006-01-02") }}
                             <li><a href="{{ .Permalink }}">{{ .Params.startdate | dateFormat "Mon 02 Jan 2006"}}{{ if and (isset .Params "enddate") (ne .Params.startdate .Params.enddate ) }} till {{ .Params.enddate | dateFormat "Mon 2 Jan 2006"}}{{ end }}: {{ .Params.linktitle }}</a></li>
+                        {{ else if isset .Params "enddate" }}
+                            {{ if ge .Params.enddate (now.Format "2006-01-02") }}
+                                <li><a href="{{ .Permalink }}">{{ .Params.startdate | dateFormat "Mon 02 Jan 2006"}}{{ if and (isset .Params "enddate") (ne .Params.startdate .Params.enddate ) }} till {{ .Params.enddate | dateFormat "Mon 2 Jan 2006"}}{{ end }}: {{ .Params.linktitle }}</a></li>
+                            {{ end }}
                         {{ end }}
+
                     {{ end }}
+
+
                 {{ end }}
             {{ end }}
         {{ end }}

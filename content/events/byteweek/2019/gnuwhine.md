@@ -8,7 +8,8 @@ location: "HSBXL"
 eventtype: "Workshop"
 price: "Free"
 series: "byteweek2019"
-image: ""
+image: "gnuwhine.png"
 --- 
 
-# GNUwhine
+Let's make fresh [GNUwhine](/projects/gnuwhine) for [Byteweek](/byteweek)/[Bytenight](/bytenight).  
+

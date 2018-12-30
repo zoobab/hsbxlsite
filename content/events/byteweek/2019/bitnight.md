@@ -8,6 +8,7 @@ location: "HSBXL"
 eventtype: "Thé Dansant"
 price: "Free"
 series: "byteweek2019"
+aliases: [/bitnight]
 --- 
 
 Pre-[Bytenight](/bytenight).  

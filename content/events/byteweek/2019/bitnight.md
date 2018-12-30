@@ -1,6 +1,6 @@
 ---
 startdate:  2019-02-01
-starttime: "13:00"
+starttime: "20:00"
 enddate:  2019-02-01
 linktitle: "Bitnight"
 title: "Bitnight"

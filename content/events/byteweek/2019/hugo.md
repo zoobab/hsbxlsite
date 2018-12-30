@@ -2,7 +2,7 @@
 startdate:  2019-01-29
 starttime: "20:30"
 enddate:  2019-01-29
-allday: true
+allday: false
 linktitle: "Hugo Workshop"
 title: "Hugo Workshop"
 location: "HSBXL"

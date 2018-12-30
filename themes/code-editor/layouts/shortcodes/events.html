@@ -3,6 +3,7 @@
 {{ $startpage :=  .Get "startpage"}}
 {{ $t := (time $when) }}
 {{ $showtime :=  .Get "showtime"}}
+{{ $showallday :=  .Get "showallday"}}
 
 {{ if eq $when "" }}
 <div class="events">
@@ -106,7 +107,7 @@
                         {{ if ne .Params.start "true"}}
                             {{ if isset .Params "startdate" }}
                                 {{ if and ( ge $when .Params.startdate) (le $when .Params.enddate) (ne .Params.start "true") }}
-                                    <li>{{ if eq $showtime "true"}}[{{ .Params.starttime }}]{{ end }} <a href="{{ .Permalink }}">{{ .Params.linktitle }}</a></li>
+                                    <li>{{ if eq $showtime "true"}}[{{ .Params.starttime }}]{{ end }} <a href="{{ .Permalink }}">{{ .Params.linktitle }}</a> {{ if eq $showallday "true"}}(All day){{ end }}</li>
                                 {{ end }}
                             {{ end }}
                         {{ end }}
@@ -116,7 +117,7 @@
 
                     {{ if isset .Params "startdate" }}
                         {{ if and ( ge $when .Params.startdate) (le $when .Params.enddate) (ne .Params.start "true") }}
-                            <li>{{ if eq $showtime "true"}}[{{ .Params.starttime }}]{{ end }} <a href="{{ .Permalink }}">{{ .Params.startdate | dateFormat "Mon 02 Jan 2006"}}{{ if isset .Params "enddate" }} till {{ .Params.enddate | dateFormat "Mon 2 Jan 2006"}}{{ end }}: {{ .Params.linktitle }}</a></li>
+                            <li>{{ if eq $showtime "true"}}[{{ .Params.starttime }}]{{ end }} <a href="{{ .Permalink }}">{{ .Params.startdate | dateFormat "Mon 02 Jan 2006"}}{{ if isset .Params "enddate" }} till {{ .Params.enddate | dateFormat "Mon 2 Jan 2006"}}{{ end }}: {{ .Params.linktitle }}</a>  {{ if eq $showallday "true"}}(All day){{ end }}</li>
                         {{ end }}
                     {{ end }}
 

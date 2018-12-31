@@ -1,0 +1,16 @@
+{{ partial "top.html" . }}
+
+{{ if .IsPage }}
+<h1>{{ .Title }}</h1>
+{{ end }}
+
+{{ partial "breadcrumbs.html" . }}
+
+<article>
+    {{ if isset .Params "image"}}
+    <img class="content_image" src="{{ .Site.BaseURL }}images/{{ .Params.image }}">
+    {{ end }}
+    {{ .Content }}
+</article>
+
+{{ partial "bottom.html" . }}

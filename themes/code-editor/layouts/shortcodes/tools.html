@@ -1,0 +1,7 @@
+<ul>
+{{ range $.Site.RegularPages.ByParam "startdate" }}
+    {{ if eq .Type "tools" }}
+    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+    {{ end }}
+{{ end }}
+</ul>

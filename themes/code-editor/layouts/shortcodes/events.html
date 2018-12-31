@@ -98,7 +98,7 @@
 
 <div class="events">
     <ul>
-        {{ range $.Site.RegularPages.ByParam "startdate" }}
+        {{ range ($.Site.RegularPages.ByParam "startdate").ByParam "starttime" }}
             {{ if or (eq .Type "events") (eq .Type "techtuesday") }}
 
                 {{ if ne $series "all" }}

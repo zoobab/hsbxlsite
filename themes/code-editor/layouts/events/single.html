@@ -8,7 +8,7 @@
 
 <h4 class="datetime">
     <div>{{ .Params.eventtype }}</div>
-    <div><time>{{ if isset .Params "startdate"}}<time datetime="{{ .Params.startdate | dateFormat "2006-01-02"}}" class="dtstart">{{ .Params.startdate | dateFormat "Monday 2 January 2006"}}</time>{{ end }}{{ if isset .Params "starttime"}}, {{ .Params.starttime }}{{ end }}{{ if or (isset .Params "enddate") (isset .Params "endtime")}} / till {{ end }}{{ if isset .Params "enddate"}}<time datetime="{{ .Params.enddate | dateFormat "2006-01-02"}}" class="dtend">{{ .Params.enddate | dateFormat "Monday 2 January 2006"}}</time>{{ end }}{{ if isset .Params "endtime"}} {{ .Params.endtime }}{{ end }}</div>
+    <div><time>{{ if isset .Params "startdate"}}<time datetime="{{ .Params.startdate | dateFormat "2006-01-02"}}" class="dtstart">{{ .Params.startdate | dateFormat "Monday 2 January 2006"}}</time>{{ end }}{{ if isset .Params "starttime"}}, {{ .Params.starttime }}{{ end }}{{ if or (isset .Params "enddate") (isset .Params "endtime")}} {{ end }}{{ if and (isset .Params "enddate") (ne .Params.startdate .Params.enddate)}} / till <time datetime="{{ .Params.enddate | dateFormat "2006-01-02"}}" class="dtend">{{ .Params.enddate | dateFormat "Monday 2 January 2006"}}</time>{{ end }}{{ if isset .Params "endtime"}} {{ .Params.endtime }}{{ end }}</div>
     {{ if isset .Params "location"}}<div>@ <span class="location">{{if eq .Params.location "HSBXL" }}<a href="/contact">HSBXL</a>{{ else }}{{ .Params.location }}{{ end }}</span></div>{{ end }}
 </h4>
 

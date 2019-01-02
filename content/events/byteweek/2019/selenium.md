@@ -12,4 +12,4 @@ series: "byteweek2019"
 image: "selenium.png"
 --- 
 
-Lorem ipsum
+In this workshop we'll go over scraping JavaScript-heavy websites (where BeautifulSoup would fail) using Selenium and Python.

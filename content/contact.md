@@ -35,6 +35,12 @@ The space is located at 950m from Brussels south transtation [Route on Google ma
 
 There is always plenty of free parking spots in our street. Never an issue.
 
+# At night: Collecto 
+To get back at your home/hotel, there is 'Collecto'. A Taxi picks you up at certain points and brings you to your destination within the Brussels region for 5 or 6 euro. Fixed price.
+
+There is a collecto startpoint around the corner, at 350m. see https://goo.gl/maps/YiHmCjo8EZ62  
+http://www.taxisverts.be/en/collecto
+ 
 
 # Statutes at Belgisch Staatsblad / Moniteur Belge
 - **06 aug 2009**: [http://www.ejustice.just.fgov.be/tsv_pdf/2009/08/18/09118276.pdf PDF]

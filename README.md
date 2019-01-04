@@ -52,7 +52,7 @@ This number you find from the URL from that tweet. https://twitter.com/hsbxl/sta
 
 ## How to run it with Docker
 
-You can build a sef-contained allinone container (nginx+hugo+data) by running the ``./build.sh``` script:
+You can build a sef-contained allinone container (nginx+hugo+data) by running the ```./build.sh``` script:
 
 ```
 $ ./build.sh
